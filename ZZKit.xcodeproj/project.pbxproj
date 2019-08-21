@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -104,8 +104,49 @@
 		B1D12614226EF55E008F7EE7 /* DNCustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D1260A226EF55E008F7EE7 /* DNCustomPickerView.m */; };
 		B1D12615226EF55E008F7EE7 /* HooDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D1260E226EF55E008F7EE7 /* HooDatePicker.m */; };
 		B1D12616226EF55E008F7EE7 /* NSDate+HooDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D1260F226EF55E008F7EE7 /* NSDate+HooDatePicker.m */; };
-		B1FDDA9422D49018004B5EA6 /* DNAdYYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FDDA9122D49018004B5EA6 /* DNAdYYClassInfo.m */; };
-		B1FDDA9722D49294004B5EA6 /* NSObject+DNAdYYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FDDA9622D49294004B5EA6 /* NSObject+DNAdYYModel.m */; };
+		B1FC377E230CDC820047A34A /* ZZJSONToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC377D230CDC820047A34A /* ZZJSONToViewController.m */; };
+		B1FC3781230CDCF80047A34A /* ZZJSONToViewDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3780230CDCF80047A34A /* ZZJSONToViewDetailController.m */; };
+		B1FC3851230CDE7E0047A34A /* UIView+DNAdAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC37FD230CDE7E0047A34A /* UIView+DNAdAutoLayout.m */; };
+		B1FC3852230CDE7E0047A34A /* UIView+DNAdFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3800230CDE7E0047A34A /* UIView+DNAdFrame.m */; };
+		B1FC3853230CDE7E0047A34A /* UIColor+DNAd.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3801230CDE7E0047A34A /* UIColor+DNAd.m */; };
+		B1FC3854230CDE7E0047A34A /* DNAdJSONNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3805230CDE7E0047A34A /* DNAdJSONNotificationManager.m */; };
+		B1FC3855230CDE7E0047A34A /* DNAdJsonNotificationResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3806230CDE7E0047A34A /* DNAdJsonNotificationResultModel.m */; };
+		B1FC3856230CDE7E0047A34A /* DNAdErrorPicFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FC3808230CDE7E0047A34A /* DNAdErrorPicFrame.png */; };
+		B1FC3857230CDE7E0047A34A /* dn_img_mengban_ad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FC380B230CDE7E0047A34A /* dn_img_mengban_ad.png */; };
+		B1FC3858230CDE7E0047A34A /* dn_img_DNAdMark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FC380C230CDE7E0047A34A /* dn_img_DNAdMark@2x.png */; };
+		B1FC3859230CDE7E0047A34A /* dn_img_DNAdMark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FC380D230CDE7E0047A34A /* dn_img_DNAdMark@3x.png */; };
+		B1FC385A230CDE7E0047A34A /* view_test0.json in Resources */ = {isa = PBXBuildFile; fileRef = B1FC380E230CDE7E0047A34A /* view_test0.json */; };
+		B1FC385B230CDE7E0047A34A /* adview_small.json in Resources */ = {isa = PBXBuildFile; fileRef = B1FC380F230CDE7E0047A34A /* adview_small.json */; };
+		B1FC385C230CDE7E0047A34A /* adview_group.json in Resources */ = {isa = PBXBuildFile; fileRef = B1FC3810230CDE7E0047A34A /* adview_group.json */; };
+		B1FC385D230CDE7E0047A34A /* adview_big.json in Resources */ = {isa = PBXBuildFile; fileRef = B1FC3811230CDE7E0047A34A /* adview_big.json */; };
+		B1FC385E230CDE7E0047A34A /* adview_video.json in Resources */ = {isa = PBXBuildFile; fileRef = B1FC3812230CDE7E0047A34A /* adview_video.json */; };
+		B1FC385F230CDE7E0047A34A /* DNAdJSONMappers.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3814230CDE7E0047A34A /* DNAdJSONMappers.m */; };
+		B1FC3860230CDE7E0047A34A /* DNAdJSONViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3818230CDE7E0047A34A /* DNAdJSONViewModel.m */; };
+		B1FC3861230CDE7E0047A34A /* DNAdJSONImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC381D230CDE7E0047A34A /* DNAdJSONImageModel.m */; };
+		B1FC3862230CDE7E0047A34A /* DNAdJSONStackViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC381E230CDE7E0047A34A /* DNAdJSONStackViewModel.m */; };
+		B1FC3863230CDE7E0047A34A /* DNAdJSONLabelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3820230CDE7E0047A34A /* DNAdJSONLabelModel.m */; };
+		B1FC3864230CDE7E0047A34A /* DNAdJSONBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3821230CDE7E0047A34A /* DNAdJSONBaseModel.m */; };
+		B1FC3865230CDE7E0047A34A /* DNAdJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3822230CDE7E0047A34A /* DNAdJSONModel.m */; };
+		B1FC3866230CDE7E0047A34A /* DNAdYYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3828230CDE7E0047A34A /* DNAdYYKVStorage.m */; };
+		B1FC3867230CDE7E0047A34A /* DNAdYYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC382A230CDE7E0047A34A /* DNAdYYMemoryCache.m */; };
+		B1FC3868230CDE7E0047A34A /* DNAdYYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC382C230CDE7E0047A34A /* DNAdYYCache.m */; };
+		B1FC3869230CDE7E0047A34A /* DNAdYYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC382D230CDE7E0047A34A /* DNAdYYDiskCache.m */; };
+		B1FC386A230CDE7E0047A34A /* DNAdYYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC382E230CDE7E0047A34A /* DNAdYYImageCache.m */; };
+		B1FC386B230CDE7E0047A34A /* DNAdYYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC382F230CDE7E0047A34A /* DNAdYYWebImageOperation.m */; };
+		B1FC386C230CDE7E0047A34A /* DNAdYYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3831230CDE7E0047A34A /* DNAdYYSpriteSheetImage.m */; };
+		B1FC386D230CDE7E0047A34A /* DNAdYYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3833230CDE7E0047A34A /* DNAdYYAnimatedImageView.m */; };
+		B1FC386E230CDE7E0047A34A /* DNAdYYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3834230CDE7E0047A34A /* DNAdYYImage.m */; };
+		B1FC386F230CDE7E0047A34A /* DNAdYYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3836230CDE7E0047A34A /* DNAdYYImageCoder.m */; };
+		B1FC3870230CDE7E0047A34A /* DNAdYYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3839230CDE7E0047A34A /* DNAdYYFrameImage.m */; };
+		B1FC3871230CDE7E0047A34A /* DNAdYYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC383D230CDE7E0047A34A /* DNAdYYWebImageManager.m */; };
+		B1FC3872230CDE7E0047A34A /* _DNAdYYWebImageSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3840230CDE7E0047A34A /* _DNAdYYWebImageSetter.m */; };
+		B1FC3873230CDE7E0047A34A /* UIImage+DNAdYYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3841230CDE7E0047A34A /* UIImage+DNAdYYWebImage.m */; };
+		B1FC3874230CDE7E0047A34A /* UIImageView+DNAdYYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3842230CDE7E0047A34A /* UIImageView+DNAdYYWebImage.m */; };
+		B1FC3875230CDE7E0047A34A /* DNAdJSONStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC3849230CDE7E0047A34A /* DNAdJSONStackView.m */; };
+		B1FC3876230CDE7E0047A34A /* DNAdJSONImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC384A230CDE7E0047A34A /* DNAdJSONImageView.m */; };
+		B1FC3877230CDE7E0047A34A /* DNAdJSONLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC384B230CDE7E0047A34A /* DNAdJSONLabel.m */; };
+		B1FC3878230CDE7E0047A34A /* DNAdJSONView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC384C230CDE7E0047A34A /* DNAdJSONView.m */; };
+		B1FC3879230CDE7E0047A34A /* DNAdJSONBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC384D230CDE7E0047A34A /* DNAdJSONBaseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -306,10 +347,83 @@
 		B1D1260E226EF55E008F7EE7 /* HooDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooDatePicker.m; sourceTree = "<group>"; };
 		B1D1260F226EF55E008F7EE7 /* NSDate+HooDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HooDatePicker.m"; sourceTree = "<group>"; };
 		B1D12610226EF55E008F7EE7 /* DNCustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNCustomPickerView.h; sourceTree = "<group>"; };
-		B1FDDA8E22D49018004B5EA6 /* DNAdYYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYClassInfo.h; sourceTree = "<group>"; };
-		B1FDDA9122D49018004B5EA6 /* DNAdYYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYClassInfo.m; sourceTree = "<group>"; };
-		B1FDDA9522D49294004B5EA6 /* NSObject+DNAdYYModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+DNAdYYModel.h"; sourceTree = "<group>"; };
-		B1FDDA9622D49294004B5EA6 /* NSObject+DNAdYYModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DNAdYYModel.m"; sourceTree = "<group>"; };
+		B1FC377C230CDC820047A34A /* ZZJSONToViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZJSONToViewController.h; sourceTree = "<group>"; };
+		B1FC377D230CDC820047A34A /* ZZJSONToViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZJSONToViewController.m; sourceTree = "<group>"; };
+		B1FC377F230CDCF80047A34A /* ZZJSONToViewDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZJSONToViewDetailController.h; sourceTree = "<group>"; };
+		B1FC3780230CDCF80047A34A /* ZZJSONToViewDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZJSONToViewDetailController.m; sourceTree = "<group>"; };
+		B1FC37FC230CDE7E0047A34A /* UIView+DNAdFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DNAdFrame.h"; sourceTree = "<group>"; };
+		B1FC37FD230CDE7E0047A34A /* UIView+DNAdAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DNAdAutoLayout.m"; sourceTree = "<group>"; };
+		B1FC37FE230CDE7E0047A34A /* UIColor+DNAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DNAd.h"; sourceTree = "<group>"; };
+		B1FC37FF230CDE7E0047A34A /* UIView+DNAdAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DNAdAutoLayout.h"; sourceTree = "<group>"; };
+		B1FC3800230CDE7E0047A34A /* UIView+DNAdFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DNAdFrame.m"; sourceTree = "<group>"; };
+		B1FC3801230CDE7E0047A34A /* UIColor+DNAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DNAd.m"; sourceTree = "<group>"; };
+		B1FC3803230CDE7E0047A34A /* DNAdJSONNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONNotificationManager.h; sourceTree = "<group>"; };
+		B1FC3804230CDE7E0047A34A /* DNAdJsonNotificationResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJsonNotificationResultModel.h; sourceTree = "<group>"; };
+		B1FC3805230CDE7E0047A34A /* DNAdJSONNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONNotificationManager.m; sourceTree = "<group>"; };
+		B1FC3806230CDE7E0047A34A /* DNAdJsonNotificationResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJsonNotificationResultModel.m; sourceTree = "<group>"; };
+		B1FC3808230CDE7E0047A34A /* DNAdErrorPicFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DNAdErrorPicFrame.png; sourceTree = "<group>"; };
+		B1FC380B230CDE7E0047A34A /* dn_img_mengban_ad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dn_img_mengban_ad.png; sourceTree = "<group>"; };
+		B1FC380C230CDE7E0047A34A /* dn_img_DNAdMark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dn_img_DNAdMark@2x.png"; sourceTree = "<group>"; };
+		B1FC380D230CDE7E0047A34A /* dn_img_DNAdMark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dn_img_DNAdMark@3x.png"; sourceTree = "<group>"; };
+		B1FC380E230CDE7E0047A34A /* view_test0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = view_test0.json; sourceTree = "<group>"; };
+		B1FC380F230CDE7E0047A34A /* adview_small.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = adview_small.json; sourceTree = "<group>"; };
+		B1FC3810230CDE7E0047A34A /* adview_group.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = adview_group.json; sourceTree = "<group>"; };
+		B1FC3811230CDE7E0047A34A /* adview_big.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = adview_big.json; sourceTree = "<group>"; };
+		B1FC3812230CDE7E0047A34A /* adview_video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = adview_video.json; sourceTree = "<group>"; };
+		B1FC3814230CDE7E0047A34A /* DNAdJSONMappers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONMappers.m; sourceTree = "<group>"; };
+		B1FC3815230CDE7E0047A34A /* DNAdJSONMappers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONMappers.h; sourceTree = "<group>"; };
+		B1FC3817230CDE7E0047A34A /* DNAdJSONImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONImageModel.h; sourceTree = "<group>"; };
+		B1FC3818230CDE7E0047A34A /* DNAdJSONViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONViewModel.m; sourceTree = "<group>"; };
+		B1FC3819230CDE7E0047A34A /* DNAdJSONStackViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONStackViewModel.h; sourceTree = "<group>"; };
+		B1FC381A230CDE7E0047A34A /* DNAdJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONModel.h; sourceTree = "<group>"; };
+		B1FC381B230CDE7E0047A34A /* DNAdJSONBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONBaseModel.h; sourceTree = "<group>"; };
+		B1FC381C230CDE7E0047A34A /* DNAdJSONLabelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONLabelModel.h; sourceTree = "<group>"; };
+		B1FC381D230CDE7E0047A34A /* DNAdJSONImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONImageModel.m; sourceTree = "<group>"; };
+		B1FC381E230CDE7E0047A34A /* DNAdJSONStackViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONStackViewModel.m; sourceTree = "<group>"; };
+		B1FC381F230CDE7E0047A34A /* DNAdJSONViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONViewModel.h; sourceTree = "<group>"; };
+		B1FC3820230CDE7E0047A34A /* DNAdJSONLabelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONLabelModel.m; sourceTree = "<group>"; };
+		B1FC3821230CDE7E0047A34A /* DNAdJSONBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONBaseModel.m; sourceTree = "<group>"; };
+		B1FC3822230CDE7E0047A34A /* DNAdJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONModel.m; sourceTree = "<group>"; };
+		B1FC3826230CDE7E0047A34A /* DNAdYYMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYMemoryCache.h; sourceTree = "<group>"; };
+		B1FC3827230CDE7E0047A34A /* DNAdYYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYCache.h; sourceTree = "<group>"; };
+		B1FC3828230CDE7E0047A34A /* DNAdYYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYKVStorage.m; sourceTree = "<group>"; };
+		B1FC3829230CDE7E0047A34A /* DNAdYYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYDiskCache.h; sourceTree = "<group>"; };
+		B1FC382A230CDE7E0047A34A /* DNAdYYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYMemoryCache.m; sourceTree = "<group>"; };
+		B1FC382B230CDE7E0047A34A /* DNAdYYKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYKVStorage.h; sourceTree = "<group>"; };
+		B1FC382C230CDE7E0047A34A /* DNAdYYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYCache.m; sourceTree = "<group>"; };
+		B1FC382D230CDE7E0047A34A /* DNAdYYDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYDiskCache.m; sourceTree = "<group>"; };
+		B1FC382E230CDE7E0047A34A /* DNAdYYImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYImageCache.m; sourceTree = "<group>"; };
+		B1FC382F230CDE7E0047A34A /* DNAdYYWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYWebImageOperation.m; sourceTree = "<group>"; };
+		B1FC3831230CDE7E0047A34A /* DNAdYYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYSpriteSheetImage.m; sourceTree = "<group>"; };
+		B1FC3832230CDE7E0047A34A /* DNAdYYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYImageCoder.h; sourceTree = "<group>"; };
+		B1FC3833230CDE7E0047A34A /* DNAdYYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYAnimatedImageView.m; sourceTree = "<group>"; };
+		B1FC3834230CDE7E0047A34A /* DNAdYYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYImage.m; sourceTree = "<group>"; };
+		B1FC3835230CDE7E0047A34A /* DNAdYYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYFrameImage.h; sourceTree = "<group>"; };
+		B1FC3836230CDE7E0047A34A /* DNAdYYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYImageCoder.m; sourceTree = "<group>"; };
+		B1FC3837230CDE7E0047A34A /* DNAdYYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYSpriteSheetImage.h; sourceTree = "<group>"; };
+		B1FC3838230CDE7E0047A34A /* DNAdYYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYAnimatedImageView.h; sourceTree = "<group>"; };
+		B1FC3839230CDE7E0047A34A /* DNAdYYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYFrameImage.m; sourceTree = "<group>"; };
+		B1FC383A230CDE7E0047A34A /* DNAdYYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYImage.h; sourceTree = "<group>"; };
+		B1FC383B230CDE7E0047A34A /* DNAdYYWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYWebImageManager.h; sourceTree = "<group>"; };
+		B1FC383C230CDE7E0047A34A /* DNAdYYImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYImageCache.h; sourceTree = "<group>"; };
+		B1FC383D230CDE7E0047A34A /* DNAdYYWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdYYWebImageManager.m; sourceTree = "<group>"; };
+		B1FC383E230CDE7E0047A34A /* DNAdYYWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdYYWebImageOperation.h; sourceTree = "<group>"; };
+		B1FC3840230CDE7E0047A34A /* _DNAdYYWebImageSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DNAdYYWebImageSetter.m; sourceTree = "<group>"; };
+		B1FC3841230CDE7E0047A34A /* UIImage+DNAdYYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DNAdYYWebImage.m"; sourceTree = "<group>"; };
+		B1FC3842230CDE7E0047A34A /* UIImageView+DNAdYYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DNAdYYWebImage.m"; sourceTree = "<group>"; };
+		B1FC3843230CDE7E0047A34A /* UIImage+DNAdYYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DNAdYYWebImage.h"; sourceTree = "<group>"; };
+		B1FC3844230CDE7E0047A34A /* _DNAdYYWebImageSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DNAdYYWebImageSetter.h; sourceTree = "<group>"; };
+		B1FC3845230CDE7E0047A34A /* UIImageView+DNAdYYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DNAdYYWebImage.h"; sourceTree = "<group>"; };
+		B1FC3847230CDE7E0047A34A /* DNAdJSONBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONBaseView.h; sourceTree = "<group>"; };
+		B1FC3848230CDE7E0047A34A /* DNAdJSONView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONView.h; sourceTree = "<group>"; };
+		B1FC3849230CDE7E0047A34A /* DNAdJSONStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONStackView.m; sourceTree = "<group>"; };
+		B1FC384A230CDE7E0047A34A /* DNAdJSONImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONImageView.m; sourceTree = "<group>"; };
+		B1FC384B230CDE7E0047A34A /* DNAdJSONLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONLabel.m; sourceTree = "<group>"; };
+		B1FC384C230CDE7E0047A34A /* DNAdJSONView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONView.m; sourceTree = "<group>"; };
+		B1FC384D230CDE7E0047A34A /* DNAdJSONBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAdJSONBaseView.m; sourceTree = "<group>"; };
+		B1FC384E230CDE7E0047A34A /* DNAdJSONStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONStackView.h; sourceTree = "<group>"; };
+		B1FC384F230CDE7E0047A34A /* DNAdJSONLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONLabel.h; sourceTree = "<group>"; };
+		B1FC3850230CDE7E0047A34A /* DNAdJSONImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONImageView.h; sourceTree = "<group>"; };
 		B730FEDF762296B966DDF28C /* Pods-ZZKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZKit/Pods-ZZKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -670,7 +784,7 @@
 		B1D12608226EF55E008F7EE7 /* Kits */ = {
 			isa = PBXGroup;
 			children = (
-				B1FDDA8D22D49018004B5EA6 /* YYModel */,
+				B1FC37FA230CDE7E0047A34A /* JSONToView */,
 				B1C92EFD229E824A00CB4905 /* Timer */,
 				B124AAC9229A5E73003F3024 /* Network */,
 				B16F2064228C0BC000DADD0E /* LogReport */,
@@ -704,6 +818,7 @@
 		B1D12611226EF55E008F7EE7 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				B1FC377B230CDC620047A34A /* JSONToView */,
 				B1936292230503D600D06B60 /* Animation */,
 				B15097FB22B9CCF500F8063C /* AutoLayout */,
 				B11DA6102283F35200F81AA7 /* OpenGLES */,
@@ -718,15 +833,199 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		B1FDDA8D22D49018004B5EA6 /* YYModel */ = {
+		B1FC377B230CDC620047A34A /* JSONToView */ = {
 			isa = PBXGroup;
 			children = (
-				B1FDDA8E22D49018004B5EA6 /* DNAdYYClassInfo.h */,
-				B1FDDA9122D49018004B5EA6 /* DNAdYYClassInfo.m */,
-				B1FDDA9522D49294004B5EA6 /* NSObject+DNAdYYModel.h */,
-				B1FDDA9622D49294004B5EA6 /* NSObject+DNAdYYModel.m */,
+				B1FC377C230CDC820047A34A /* ZZJSONToViewController.h */,
+				B1FC377D230CDC820047A34A /* ZZJSONToViewController.m */,
+				B1FC377F230CDCF80047A34A /* ZZJSONToViewDetailController.h */,
+				B1FC3780230CDCF80047A34A /* ZZJSONToViewDetailController.m */,
 			);
-			path = YYModel;
+			path = JSONToView;
+			sourceTree = "<group>";
+		};
+		B1FC37FA230CDE7E0047A34A /* JSONToView */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC37FB230CDE7E0047A34A /* category */,
+				B1FC3802230CDE7E0047A34A /* notification */,
+				B1FC3807230CDE7E0047A34A /* Resources */,
+				B1FC3813230CDE7E0047A34A /* mapper */,
+				B1FC3816230CDE7E0047A34A /* models */,
+				B1FC3823230CDE7E0047A34A /* libs */,
+				B1FC3846230CDE7E0047A34A /* views */,
+			);
+			path = JSONToView;
+			sourceTree = "<group>";
+		};
+		B1FC37FB230CDE7E0047A34A /* category */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC37FC230CDE7E0047A34A /* UIView+DNAdFrame.h */,
+				B1FC37FD230CDE7E0047A34A /* UIView+DNAdAutoLayout.m */,
+				B1FC37FE230CDE7E0047A34A /* UIColor+DNAd.h */,
+				B1FC37FF230CDE7E0047A34A /* UIView+DNAdAutoLayout.h */,
+				B1FC3800230CDE7E0047A34A /* UIView+DNAdFrame.m */,
+				B1FC3801230CDE7E0047A34A /* UIColor+DNAd.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		B1FC3802230CDE7E0047A34A /* notification */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC3803230CDE7E0047A34A /* DNAdJSONNotificationManager.h */,
+				B1FC3804230CDE7E0047A34A /* DNAdJsonNotificationResultModel.h */,
+				B1FC3805230CDE7E0047A34A /* DNAdJSONNotificationManager.m */,
+				B1FC3806230CDE7E0047A34A /* DNAdJsonNotificationResultModel.m */,
+			);
+			path = notification;
+			sourceTree = "<group>";
+		};
+		B1FC3807230CDE7E0047A34A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC3808230CDE7E0047A34A /* DNAdErrorPicFrame.png */,
+				B1FC3809230CDE7E0047A34A /* Files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B1FC3809230CDE7E0047A34A /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC380A230CDE7E0047A34A /* images */,
+				B1FC380E230CDE7E0047A34A /* view_test0.json */,
+				B1FC380F230CDE7E0047A34A /* adview_small.json */,
+				B1FC3810230CDE7E0047A34A /* adview_group.json */,
+				B1FC3811230CDE7E0047A34A /* adview_big.json */,
+				B1FC3812230CDE7E0047A34A /* adview_video.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		B1FC380A230CDE7E0047A34A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC380B230CDE7E0047A34A /* dn_img_mengban_ad.png */,
+				B1FC380C230CDE7E0047A34A /* dn_img_DNAdMark@2x.png */,
+				B1FC380D230CDE7E0047A34A /* dn_img_DNAdMark@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B1FC3813230CDE7E0047A34A /* mapper */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC3814230CDE7E0047A34A /* DNAdJSONMappers.m */,
+				B1FC3815230CDE7E0047A34A /* DNAdJSONMappers.h */,
+			);
+			path = mapper;
+			sourceTree = "<group>";
+		};
+		B1FC3816230CDE7E0047A34A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC3817230CDE7E0047A34A /* DNAdJSONImageModel.h */,
+				B1FC3818230CDE7E0047A34A /* DNAdJSONViewModel.m */,
+				B1FC3819230CDE7E0047A34A /* DNAdJSONStackViewModel.h */,
+				B1FC381A230CDE7E0047A34A /* DNAdJSONModel.h */,
+				B1FC381B230CDE7E0047A34A /* DNAdJSONBaseModel.h */,
+				B1FC381C230CDE7E0047A34A /* DNAdJSONLabelModel.h */,
+				B1FC381D230CDE7E0047A34A /* DNAdJSONImageModel.m */,
+				B1FC381E230CDE7E0047A34A /* DNAdJSONStackViewModel.m */,
+				B1FC381F230CDE7E0047A34A /* DNAdJSONViewModel.h */,
+				B1FC3820230CDE7E0047A34A /* DNAdJSONLabelModel.m */,
+				B1FC3821230CDE7E0047A34A /* DNAdJSONBaseModel.m */,
+				B1FC3822230CDE7E0047A34A /* DNAdJSONModel.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		B1FC3823230CDE7E0047A34A /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC3824230CDE7E0047A34A /* YYWebImage */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		B1FC3824230CDE7E0047A34A /* YYWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC3825230CDE7E0047A34A /* YYCache */,
+				B1FC382E230CDE7E0047A34A /* DNAdYYImageCache.m */,
+				B1FC382F230CDE7E0047A34A /* DNAdYYWebImageOperation.m */,
+				B1FC3830230CDE7E0047A34A /* YYImage */,
+				B1FC383B230CDE7E0047A34A /* DNAdYYWebImageManager.h */,
+				B1FC383C230CDE7E0047A34A /* DNAdYYImageCache.h */,
+				B1FC383D230CDE7E0047A34A /* DNAdYYWebImageManager.m */,
+				B1FC383E230CDE7E0047A34A /* DNAdYYWebImageOperation.h */,
+				B1FC383F230CDE7E0047A34A /* Categories */,
+			);
+			path = YYWebImage;
+			sourceTree = "<group>";
+		};
+		B1FC3825230CDE7E0047A34A /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC3826230CDE7E0047A34A /* DNAdYYMemoryCache.h */,
+				B1FC3827230CDE7E0047A34A /* DNAdYYCache.h */,
+				B1FC3828230CDE7E0047A34A /* DNAdYYKVStorage.m */,
+				B1FC3829230CDE7E0047A34A /* DNAdYYDiskCache.h */,
+				B1FC382A230CDE7E0047A34A /* DNAdYYMemoryCache.m */,
+				B1FC382B230CDE7E0047A34A /* DNAdYYKVStorage.h */,
+				B1FC382C230CDE7E0047A34A /* DNAdYYCache.m */,
+				B1FC382D230CDE7E0047A34A /* DNAdYYDiskCache.m */,
+			);
+			path = YYCache;
+			sourceTree = "<group>";
+		};
+		B1FC3830230CDE7E0047A34A /* YYImage */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC3831230CDE7E0047A34A /* DNAdYYSpriteSheetImage.m */,
+				B1FC3832230CDE7E0047A34A /* DNAdYYImageCoder.h */,
+				B1FC3833230CDE7E0047A34A /* DNAdYYAnimatedImageView.m */,
+				B1FC3834230CDE7E0047A34A /* DNAdYYImage.m */,
+				B1FC3835230CDE7E0047A34A /* DNAdYYFrameImage.h */,
+				B1FC3836230CDE7E0047A34A /* DNAdYYImageCoder.m */,
+				B1FC3837230CDE7E0047A34A /* DNAdYYSpriteSheetImage.h */,
+				B1FC3838230CDE7E0047A34A /* DNAdYYAnimatedImageView.h */,
+				B1FC3839230CDE7E0047A34A /* DNAdYYFrameImage.m */,
+				B1FC383A230CDE7E0047A34A /* DNAdYYImage.h */,
+			);
+			path = YYImage;
+			sourceTree = "<group>";
+		};
+		B1FC383F230CDE7E0047A34A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC3840230CDE7E0047A34A /* _DNAdYYWebImageSetter.m */,
+				B1FC3841230CDE7E0047A34A /* UIImage+DNAdYYWebImage.m */,
+				B1FC3842230CDE7E0047A34A /* UIImageView+DNAdYYWebImage.m */,
+				B1FC3843230CDE7E0047A34A /* UIImage+DNAdYYWebImage.h */,
+				B1FC3844230CDE7E0047A34A /* _DNAdYYWebImageSetter.h */,
+				B1FC3845230CDE7E0047A34A /* UIImageView+DNAdYYWebImage.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B1FC3846230CDE7E0047A34A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B1FC3847230CDE7E0047A34A /* DNAdJSONBaseView.h */,
+				B1FC3848230CDE7E0047A34A /* DNAdJSONView.h */,
+				B1FC3849230CDE7E0047A34A /* DNAdJSONStackView.m */,
+				B1FC384A230CDE7E0047A34A /* DNAdJSONImageView.m */,
+				B1FC384B230CDE7E0047A34A /* DNAdJSONLabel.m */,
+				B1FC384C230CDE7E0047A34A /* DNAdJSONView.m */,
+				B1FC384D230CDE7E0047A34A /* DNAdJSONBaseView.m */,
+				B1FC384E230CDE7E0047A34A /* DNAdJSONStackView.h */,
+				B1FC384F230CDE7E0047A34A /* DNAdJSONLabel.h */,
+				B1FC3850230CDE7E0047A34A /* DNAdJSONImageView.h */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 		D796C8AE6A1B94BAF64A8CAA /* Frameworks */ = {
@@ -852,20 +1151,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1ADFE57228273A4001E3055 /* PIC_1.jpeg in Resources */,
+				B1FC385C230CDE7E0047A34A /* adview_group.json in Resources */,
+				B1FC3857230CDE7E0047A34A /* dn_img_mengban_ad.png in Resources */,
 				B11DA60B2283C71000F81AA7 /* RRCameraRes.bundle in Resources */,
+				B1FC385A230CDE7E0047A34A /* view_test0.json in Resources */,
 				B1697AB02272DB8300A5605B /* V_002.mp4 in Resources */,
 				B113F30E22854A2F00FAE8CE /* for_test.jpg in Resources */,
 				B1ADFE58228273A4001E3055 /* PIC_3.png in Resources */,
+				B1FC385E230CDE7E0047A34A /* adview_video.json in Resources */,
 				B150E9B4225C3C5000D03C2A /* LaunchScreen.storyboard in Resources */,
 				B1697AE622754D0E00A5605B /* V_Tianyuan.mp4 in Resources */,
+				B1FC385B230CDE7E0047A34A /* adview_small.json in Resources */,
 				B1697AB12272DB8300A5605B /* V_003.mp4 in Resources */,
+				B1FC3859230CDE7E0047A34A /* dn_img_DNAdMark@3x.png in Resources */,
+				B1FC3856230CDE7E0047A34A /* DNAdErrorPicFrame.png in Resources */,
 				B150E9B1225C3C5000D03C2A /* Assets.xcassets in Resources */,
 				B1ADFE59228273A4001E3055 /* PIC_2.png in Resources */,
 				B1B3C774227E858900F53872 /* shortvideo_waterImage@2x.png in Resources */,
 				B1697B032276913E00A5605B /* drag.jpg in Resources */,
+				B1FC385D230CDE7E0047A34A /* adview_big.json in Resources */,
 				B15098E422C5F88800F8063C /* P1.jpeg in Resources */,
 				B1697AD022730EFB00A5605B /* V5.mp4 in Resources */,
 				B1697AAF2272DB8300A5605B /* V_001.mp4 in Resources */,
+				B1FC3858230CDE7E0047A34A /* dn_img_DNAdMark@2x.png in Resources */,
 				B1B3C773227E858900F53872 /* shortVideo_trim1@2x.png in Resources */,
 				B150E9AF225C3C4E00D03C2A /* Main.storyboard in Resources */,
 				B1697AE522754D0E00A5605B /* V_sexlove.mp4 in Resources */,
@@ -895,28 +1203,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZZKit/Pods-ZZKit-resources.sh",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/Target Support Files/Pods-ZZKit/Pods-ZZKit-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/Target Support Files/Pods-ZZKit/Pods-ZZKit-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZKit/Pods-ZZKit-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZKit/Pods-ZZKit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		35BD0B5580549893B579D6B8 /* [CP] Check Pods Manifest.lock */ = {
@@ -949,27 +1244,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				B15098A522C217CA00F8063C /* ZZAutoLayout2ViewController.m in Sources */,
+				B1FC3871230CDE7E0047A34A /* DNAdYYWebImageManager.m in Sources */,
 				B176FA152271882B0009ABDD /* ThreadViewController.m in Sources */,
+				B1FC3855230CDE7E0047A34A /* DNAdJsonNotificationResultModel.m in Sources */,
+				B1FC3868230CDE7E0047A34A /* DNAdYYCache.m in Sources */,
 				B15098A222C20FE000F8063C /* ZZAutoLayout1ViewController.m in Sources */,
+				B1FC3852230CDE7E0047A34A /* UIView+DNAdFrame.m in Sources */,
 				B12CC35022D82B6A0028C97C /* ZZThread8ViewController.m in Sources */,
 				B176FA172271882B0009ABDD /* ZZPickerViewDemoController.m in Sources */,
+				B1FC386A230CDE7E0047A34A /* DNAdYYImageCache.m in Sources */,
 				B1C92F03229E89F200CB4905 /* ZZThread5ViewController.m in Sources */,
+				B1FC386D230CDE7E0047A34A /* DNAdYYAnimatedImageView.m in Sources */,
 				B1C92F00229E824A00CB4905 /* DNStatisticWeakTimer.m in Sources */,
 				B1D12615226EF55E008F7EE7 /* HooDatePicker.m in Sources */,
 				B1B3C77A227EDA6700F53872 /* ZZVideoObject.m in Sources */,
 				B176FA1A227188580009ABDD /* GPUImageTakePhotoViewController.m in Sources */,
+				B1FC386E230CDE7E0047A34A /* DNAdYYImage.m in Sources */,
 				B176FA1D2271888E0009ABDD /* GPUImageTakeVideoViewController.m in Sources */,
+				B1FC377E230CDC820047A34A /* ZZJSONToViewController.m in Sources */,
 				B124AAD2229A744F003F3024 /* NSDictionary+AXNetworkingMethods.m in Sources */,
 				B19362AD230504B000D06B60 /* DRFPhotoPopAnimation.m in Sources */,
+				B1FC3867230CDE7E0047A34A /* DNAdYYMemoryCache.m in Sources */,
 				B16F22262291552100DADD0E /* ZZThread3ViewController.m in Sources */,
 				B12CC35122D82B6A0028C97C /* ZZCocurrentOperation.m in Sources */,
 				B19362A9230504B000D06B60 /* DRFPhotoViewController.m in Sources */,
 				B1697AB62272E72600A5605B /* AVVideoCompositionController.m in Sources */,
+				B1FC3854230CDE7E0047A34A /* DNAdJSONNotificationManager.m in Sources */,
 				B11DA6132283F37200F81AA7 /* ZZOpenGLESDemoController.m in Sources */,
+				B1FC3869230CDE7E0047A34A /* DNAdYYDiskCache.m in Sources */,
+				B1FC3861230CDE7E0047A34A /* DNAdJSONImageModel.m in Sources */,
 				B150980122BA045C00F8063C /* ZZLayoutViewController.m in Sources */,
+				B1FC3877230CDE7E0047A34A /* DNAdJSONLabel.m in Sources */,
 				B15097FE22B9CD2300F8063C /* ZZAutoLayoutViewController.m in Sources */,
 				B113F37D2286860200FAE8CE /* ZZGLKit2ViewController.m in Sources */,
 				B19362AC230504B000D06B60 /* DRFPhotoCommentViewController.m in Sources */,
+				B1FC3870230CDE7E0047A34A /* DNAdYYFrameImage.m in Sources */,
+				B1FC3864230CDE7E0047A34A /* DNAdJSONBaseModel.m in Sources */,
 				B12CC36622DDC22C0028C97C /* ZZDownloadImage.m in Sources */,
 				B19362A7230504B000D06B60 /* DRFPhotoPresentAnimation.m in Sources */,
 				B176FA162271882B0009ABDD /* GPUImageDemoViewController.m in Sources */,
@@ -980,33 +1290,48 @@
 				B124AAD8229A7FBD003F3024 /* ZZNetworkTool.m in Sources */,
 				B17F25B422A755BE005DF8FD /* ZZThread6ViewController.m in Sources */,
 				B1ADFE5F2282A97B001E3055 /* GPUImageMutiFilterViewController3.m in Sources */,
+				B1FC3860230CDE7E0047A34A /* DNAdJSONViewModel.m in Sources */,
+				B1FC3862230CDE7E0047A34A /* DNAdJSONStackViewModel.m in Sources */,
 				B12CC35422DD64D30028C97C /* ZZCocurrentDemoOperation.m in Sources */,
 				B1B73835227E7BF400569670 /* ZZShortVideoTrimView.m in Sources */,
+				B1FC3865230CDE7E0047A34A /* DNAdJSONModel.m in Sources */,
+				B1FC386B230CDE7E0047A34A /* DNAdYYWebImageOperation.m in Sources */,
 				B124AAD5229A74E5003F3024 /* NSArray+AXNetworkingMethods.m in Sources */,
 				B1684D2D228BA6D000501A08 /* ZZGLKit4ViewController.m in Sources */,
 				B12CC36322DDBBEA0028C97C /* ZZDownloadOperation.m in Sources */,
+				B1FC3851230CDE7E0047A34A /* UIView+DNAdAutoLayout.m in Sources */,
+				B1FC3781230CDCF80047A34A /* ZZJSONToViewDetailController.m in Sources */,
+				B1FC3874230CDE7E0047A34A /* UIImageView+DNAdYYWebImage.m in Sources */,
 				B19362A8230504B000D06B60 /* DRFPhotoAnimation.m in Sources */,
 				B1ADFE5022819512001E3055 /* GPUImageVideoCameraDemoController.m in Sources */,
 				B150E9AC225C3C4E00D03C2A /* ViewController.m in Sources */,
 				B15098E222C5F22800F8063C /* ZZImageModalViewController.m in Sources */,
 				B1D12614226EF55E008F7EE7 /* DNCustomPickerView.m in Sources */,
 				B1ADFE5C2282A166001E3055 /* GPUImageMutiFilterViewController2.m in Sources */,
+				B1FC385F230CDE7E0047A34A /* DNAdJSONMappers.m in Sources */,
 				B150980422BA04FC00F8063C /* ZZAutoLayout0ViewController.m in Sources */,
 				B150E9B7225C3C5000D03C2A /* main.m in Sources */,
+				B1FC3866230CDE7E0047A34A /* DNAdYYKVStorage.m in Sources */,
 				B113F37A22867C9700FAE8CE /* ZZGLKit0ViewController.m in Sources */,
 				B1697B2322770A0400A5605B /* ZZVideoTrimFrameCell.m in Sources */,
 				B15098EA22C61A2F00F8063C /* ZZUIStackViewListController.m in Sources */,
 				B1697B1122769A3A00A5605B /* ZZArticleModel.m in Sources */,
+				B1FC3878230CDE7E0047A34A /* DNAdJSONView.m in Sources */,
 				B16F22292291626D00DADD0E /* ZZThread4ViewController.m in Sources */,
 				B1C92F55229FC3AA00CB4905 /* ZZRequet1ViewController.m in Sources */,
 				B1697B0B2276985F00A5605B /* ZZBlogListViewController.m in Sources */,
 				B12CC34E22D82B6A0028C97C /* ZZNoCocurrentOperation.m in Sources */,
 				B1697B082276984F00A5605B /* ZZArticleListViewController.m in Sources */,
+				B1FC3876230CDE7E0047A34A /* DNAdJSONImageView.m in Sources */,
 				B15098A822C2FE9700F8063C /* ZZRequet2ViewController.m in Sources */,
+				B1FC3863230CDE7E0047A34A /* DNAdJSONLabelModel.m in Sources */,
+				B1FC3879230CDE7E0047A34A /* DNAdJSONBaseView.m in Sources */,
 				B1697B0E22769A2100A5605B /* ZZWebViewController.m in Sources */,
 				B176FA142271882B0009ABDD /* AVFoundationViewController.m in Sources */,
+				B1FC386F230CDE7E0047A34A /* DNAdYYImageCoder.m in Sources */,
 				B1C92F58229FC69B00CB4905 /* ZZReachability.m in Sources */,
-				B1FDDA9422D49018004B5EA6 /* DNAdYYClassInfo.m in Sources */,
+				B1FC3872230CDE7E0047A34A /* _DNAdYYWebImageSetter.m in Sources */,
+				B1FC3875230CDE7E0047A34A /* DNAdJSONStackView.m in Sources */,
 				B113F38022868DB700FAE8CE /* ZZGLKit3ViewController.m in Sources */,
 				B150E9A9225C3C4E00D03C2A /* AppDelegate.m in Sources */,
 				B1B3C77D227EEBB000F53872 /* ZZVideoCutViewController.m in Sources */,
@@ -1019,7 +1344,9 @@
 				B1936295230503FB00D06B60 /* ZZAnimationViewController.m in Sources */,
 				B176FA132271882B0009ABDD /* HTTPRequestViewController.m in Sources */,
 				B1ADFE53228199E9001E3055 /* GPUImageMutiFilterViewController.m in Sources */,
-				B1FDDA9722D49294004B5EA6 /* NSObject+DNAdYYModel.m in Sources */,
+				B1FC386C230CDE7E0047A34A /* DNAdYYSpriteSheetImage.m in Sources */,
+				B1FC3853230CDE7E0047A34A /* UIColor+DNAd.m in Sources */,
+				B1FC3873230CDE7E0047A34A /* UIImage+DNAdYYWebImage.m in Sources */,
 				B124AACF229A6DC3003F3024 /* ZZNetworkManager.m in Sources */,
 				B16F20BF228EA96F00DADD0E /* ZZThread1ViewController.m in Sources */,
 				B15098B122C4A7DF00F8063C /* ZZUIStackViewController.m in Sources */,

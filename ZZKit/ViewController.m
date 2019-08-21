@@ -20,8 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titles = @[@"知识点 & 文章",@"PickerView工具",@"GPUImage",@"AVFoundation音视频",@"OpenGL ES学习",@"多线程例子",@"网络",@"自动布局",@"Animation"];
-    self.controllers = @[@"ZZArticleListViewController",@"ZZPickerViewDemoController",@"GPUImageDemoViewController",@"AVFoundationViewController",@"ZZOpenGLESDemoController",@"ThreadViewController",@"HTTPRequestViewController",@"ZZLayoutViewController",@"ZZAnimationViewController"];
+    self.titles = @[@"知识点 & 文章",@"PickerView工具",@"GPUImage",@"AVFoundation音视频",@"OpenGL ES学习",@"多线程例子",@"网络",@"自动布局",@"Animation",@"JSON模板转视图"];
+    self.controllers = @[@"ZZArticleListViewController",@"ZZPickerViewDemoController",@"GPUImageDemoViewController",@"AVFoundationViewController",@"ZZOpenGLESDemoController",@"ThreadViewController",@"HTTPRequestViewController",@"ZZLayoutViewController",@"ZZAnimationViewController",@"ZZJSONToViewController"];
     [self.view addSubview:self.tableView];
    
 }
@@ -41,7 +41,7 @@
     Class vcClass = NSClassFromString(vcName);
     UIViewController *vc = [vcClass new];
     vc.view.backgroundColor = [UIColor whiteColor];
-    vc.title = self.titles[indexPath.row];
+    vc.title = [NSString stringWithFormat:@"%zd-》%@",indexPath.row+1,self.titles[indexPath.row]];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

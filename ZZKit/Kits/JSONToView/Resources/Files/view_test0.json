@@ -1,0 +1,38 @@
+{
+    "vid":"ad_level_container",
+    "type":"view",
+    "ml":"0",
+    "mr":"0",
+    "mt":"300",
+    "h":"220",
+    "bgColor":"#f0f0f0",
+    "subViews":[
+        {
+            "vid":"ad_level1_yelloview",
+            "type":"view",
+            "ml":"20",
+            "mb":"10",
+            "w":"100",
+            "h":"100",
+            "bgColor":"#ffff00",
+            "subViews":[
+                
+            ]
+        }
+        ,
+        {
+            "vid":"ad_level1_blueview",
+            "type":"view",
+            "cvId":"ad_level1_yelloview",
+            "chId":"ad_level1_yelloview",
+            "cv":"0",
+            "ch":"0",
+            "w":"50",
+            "h":"50",
+            "bgColor":"#0000ff",
+            "subViews":[
+                
+            ]
+        }
+    ]
+}

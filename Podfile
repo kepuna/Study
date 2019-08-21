@@ -5,5 +5,6 @@ target 'ZZKit' do
    pod 'GPUImage'
    pod 'YYCategories'
    pod 'AFNetworking'
+   pod 'ReactiveCocoa', '2.5.0'
 
 end

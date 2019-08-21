@@ -15,6 +15,13 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - GPUImage (0.1.7)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
@@ -22,19 +29,22 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - GPUImage
+  - ReactiveCocoa (= 2.5.0)
   - YYCategories
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - GPUImage
+    - ReactiveCocoa
     - YYCategories
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: f1e51ffae5a458ddf83aee4edeffd90d96434551
+PODFILE CHECKSUM: 891c10b3a84955de330314bbb3c6c3bf246ee37e
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5

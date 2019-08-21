@@ -29,8 +29,16 @@
     
     ZZArticleModel *model0 = [ZZArticleModel modelWithTitle:@"图片的填充模式" route:@"ZZImageModeListViewController"];
     ZZArticleModel *model1 = [ZZArticleModel modelWithTitle:@"UIStackView的使用" route:@"ZZUIStackViewListController"];
+    ZZArticleModel *model2 = [ZZArticleModel modelWithTitle:@"iOS 聊聊present和dismiss" route:@"https://www.jianshu.com/p/455d5f0b3656"];
+    ZZArticleModel *model3 = [ZZArticleModel modelWithTitle:@"拦截所有WKWKWebView的的css,js,png等网络请求" route:@"https://github.com/LiuShuoyu/HybirdWKWebVIew"];
+    ZZArticleModel *model4 = [ZZArticleModel modelWithTitle:@"腾讯小哥开发SDK总结&原则" route:@"https://blog.bihe0832.com/sdk_experience_Demo.html"];
+    
+    
     [self.models addObject:model0];
     [self.models addObject:model1];
+    [self.models addObject:model2];
+    [self.models addObject:model3];
+    [self.models addObject:model4];
 }
 
 

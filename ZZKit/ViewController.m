@@ -20,8 +20,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titles = @[@"知识点 & 文章",@"PickerView工具",@"GPUImage",@"AVFoundation音视频",@"OpenGL ES学习",@"多线程例子",@"网络",@"自动布局",@"Animation",@"JSON模板转视图"];
-    self.controllers = @[@"ZZArticleListViewController",@"ZZPickerViewDemoController",@"GPUImageDemoViewController",@"AVFoundationViewController",@"ZZOpenGLESDemoController",@"ThreadViewController",@"HTTPRequestViewController",@"ZZLayoutViewController",@"ZZAnimationViewController",@"ZZJSONToViewController"];
+    self.titles = @[@"知识点 & 文章",@"PickerView工具",@"GPUImage",@"AVFoundation音视频",@"OpenGL ES学习",@"多线程例子",@"网络",@"自动布局",@"Animation",@"JSON模板转视图", @"设计模式",@"高性能"];
+    self.controllers = @[@"ZZArticleListViewController",@"ZZPickerViewDemoController",@"GPUImageDemoViewController",@"AVFoundationViewController",@"ZZOpenGLESDemoController",@"ThreadViewController",@"HTTPRequestViewController",@"ZZLayoutViewController",@"ZZAnimationViewController",@"ZZJSONToViewController",@"ZZDesignPatternViewController",@"ZZPerformanceViewController"];
+    
     [self.view addSubview:self.tableView];
    
 }

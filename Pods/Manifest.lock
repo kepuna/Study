@@ -33,7 +33,7 @@ DEPENDENCIES:
   - YYCategories
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - GPUImage
     - ReactiveCocoa
@@ -47,4 +47,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 891c10b3a84955de330314bbb3c6c3bf246ee37e
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.10.0

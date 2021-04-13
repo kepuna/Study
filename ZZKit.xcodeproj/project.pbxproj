@@ -147,6 +147,68 @@
 		B1FC3877230CDE7E0047A34A /* DNAdJSONLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC384B230CDE7E0047A34A /* DNAdJSONLabel.m */; };
 		B1FC3878230CDE7E0047A34A /* DNAdJSONView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC384C230CDE7E0047A34A /* DNAdJSONView.m */; };
 		B1FC3879230CDE7E0047A34A /* DNAdJSONBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC384D230CDE7E0047A34A /* DNAdJSONBaseView.m */; };
+		FAFF0C07262564CD00CD3AAD /* ZZDesignPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C06262564CD00CD3AAD /* ZZDesignPatternViewController.m */; };
+		FAFF0C7526256C4400CD3AAD /* ZZSoldState.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C1226256C4400CD3AAD /* ZZSoldState.m */; };
+		FAFF0C7626256C4400CD3AAD /* ZZNoMoenyState.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C1426256C4400CD3AAD /* ZZNoMoenyState.m */; };
+		FAFF0C7726256C4400CD3AAD /* ZZSoldOutState.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C1526256C4400CD3AAD /* ZZSoldOutState.m */; };
+		FAFF0C7826256C4400CD3AAD /* ZZSaleMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C1726256C4400CD3AAD /* ZZSaleMachine.m */; };
+		FAFF0C7926256C4400CD3AAD /* ZZHasMoneyState.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C1C26256C4400CD3AAD /* ZZHasMoneyState.m */; };
+		FAFF0C7A26256C4400CD3AAD /* FBSettingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C1E26256C4400CD3AAD /* FBSettingWindow.m */; };
+		FAFF0C7B26256C4400CD3AAD /* ZZMinimizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C2026256C4400CD3AAD /* ZZMinimizeCommand.m */; };
+		FAFF0C7C26256C4400CD3AAD /* ZZHelpHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C2126256C4400CD3AAD /* ZZHelpHandler.m */; };
+		FAFF0C7D26256C4400CD3AAD /* ZZHelpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C2226256C4400CD3AAD /* ZZHelpCommand.m */; };
+		FAFF0C7E26256C4400CD3AAD /* FunctionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C2426256C4400CD3AAD /* FunctionButton.m */; };
+		FAFF0C7F26256C4400CD3AAD /* ZZWindowHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C2926256C4400CD3AAD /* ZZWindowHandler.m */; };
+		FAFF0C8026256C4400CD3AAD /* ZZAccountOverdraftState.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C2D26256C4400CD3AAD /* ZZAccountOverdraftState.m */; };
+		FAFF0C8126256C4400CD3AAD /* ZZAccountRestrictedState.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C2E26256C4400CD3AAD /* ZZAccountRestrictedState.m */; };
+		FAFF0C8226256C4400CD3AAD /* ZZAccountNormalState.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C3026256C4400CD3AAD /* ZZAccountNormalState.m */; };
+		FAFF0C8326256C4400CD3AAD /* ZZAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C3426256C4400CD3AAD /* ZZAccount.m */; };
+		FAFF0C8426256C4400CD3AAD /* ReceiverC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C3826256C4400CD3AAD /* ReceiverC.m */; };
+		FAFF0C8526256C4400CD3AAD /* ConcreteCommandC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C3C26256C4400CD3AAD /* ConcreteCommandC.m */; };
+		FAFF0C8626256C4400CD3AAD /* ConcreteCommandB.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C3E26256C4400CD3AAD /* ConcreteCommandB.m */; };
+		FAFF0C8726256C4400CD3AAD /* ReceiverA.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C3F26256C4400CD3AAD /* ReceiverA.m */; };
+		FAFF0C8826256C4400CD3AAD /* ReceiverB.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C4126256C4400CD3AAD /* ReceiverB.m */; };
+		FAFF0C8926256C4400CD3AAD /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C4226256C4400CD3AAD /* Invoker.m */; };
+		FAFF0C8A26256C4400CD3AAD /* ConcreteCommandA.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C4326256C4400CD3AAD /* ConcreteCommandA.m */; };
+		FAFF0C8B26256C4400CD3AAD /* MBCarStateCanclePrepareActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C4826256C4400CD3AAD /* MBCarStateCanclePrepareActionHandler.m */; };
+		FAFF0C8C26256C4400CD3AAD /* MBCarStateActionChainTail.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C4926256C4400CD3AAD /* MBCarStateActionChainTail.m */; };
+		FAFF0C8D26256C4400CD3AAD /* MBCarStateJoinActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C4A26256C4400CD3AAD /* MBCarStateJoinActionHandler.m */; };
+		FAFF0C8E26256C4400CD3AAD /* MBCarStateActionChainHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C4B26256C4400CD3AAD /* MBCarStateActionChainHeader.m */; };
+		FAFF0C8F26256C4400CD3AAD /* MBCarStateRemindActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C4D26256C4400CD3AAD /* MBCarStateRemindActionHandler.m */; };
+		FAFF0C9026256C4400CD3AAD /* MBCarStateDriveActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C4E26256C4400CD3AAD /* MBCarStateDriveActionHandler.m */; };
+		FAFF0C9126256C4400CD3AAD /* MBCarStateEndDriveActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C4F26256C4400CD3AAD /* MBCarStateEndDriveActionHandler.m */; };
+		FAFF0C9226256C4400CD3AAD /* MBCarStatePrepareActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C5126256C4400CD3AAD /* MBCarStatePrepareActionHandler.m */; };
+		FAFF0C9326256C4400CD3AAD /* MBCarStateButtonClickRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C5726256C4400CD3AAD /* MBCarStateButtonClickRequest.m */; };
+		FAFF0C9426256C4400CD3AAD /* MBCarSeatOnState.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C5A26256C4400CD3AAD /* MBCarSeatOnState.m */; };
+		FAFF0C9526256C4400CD3AAD /* MBCarSeatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C5D26256C4400CD3AAD /* MBCarSeatModel.m */; };
+		FAFF0C9626256C4400CD3AAD /* MBCarSeatInvalidState.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C6026256C4400CD3AAD /* MBCarSeatInvalidState.m */; };
+		FAFF0C9726256C4400CD3AAD /* MBCarSeatOpenState.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C6126256C4400CD3AAD /* MBCarSeatOpenState.m */; };
+		FAFF0C9826256C4400CD3AAD /* MBCarSeatCloseState.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C6326256C4400CD3AAD /* MBCarSeatCloseState.m */; };
+		FAFF0C9926256C4400CD3AAD /* MBCarSeatStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C6526256C4400CD3AAD /* MBCarSeatStateMachine.m */; };
+		FAFF0C9A26256C4400CD3AAD /* MBCarPlayerContainerViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C6626256C4400CD3AAD /* MBCarPlayerContainerViewModule.m */; };
+		FAFF0C9B26256C4400CD3AAD /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C6D26256C4400CD3AAD /* Command.m */; };
+		FAFF0C9C26256C4400CD3AAD /* Cumtomer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C6E26256C4400CD3AAD /* Cumtomer.m */; };
+		FAFF0C9D26256C4400CD3AAD /* SeatChangeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C6F26256C4400CD3AAD /* SeatChangeCommand.m */; };
+		FAFF0C9E26256C4400CD3AAD /* AvatarCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C7026256C4400CD3AAD /* AvatarCommand.m */; };
+		FAFF0C9F26256C4400CD3AAD /* AddSeatCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0C7226256C4400CD3AAD /* AddSeatCommand.m */; };
+		FAFF0CD62625718700CD3AAD /* ZZPriorityQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CAB2625718600CD3AAD /* ZZPriorityQueue.mm */; };
+		FAFF0CD72625718700CD3AAD /* ZZPhotoAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CAD2625718600CD3AAD /* ZZPhotoAlbumCell.m */; };
+		FAFF0CD82625718700CD3AAD /* ZZTaskQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CB02625718700CD3AAD /* ZZTaskQueue.mm */; };
+		FAFF0CD92625718700CD3AAD /* ZZTaskScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CB12625718700CD3AAD /* ZZTaskScheduler.m */; };
+		FAFF0CDA2625718700CD3AAD /* ZZPhotoAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CB52625718700CD3AAD /* ZZPhotoAlbumViewController.m */; };
+		FAFF0CDB2625718700CD3AAD /* ZZTaskStack.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CB62625718700CD3AAD /* ZZTaskStack.mm */; };
+		FAFF0CDC2625718700CD3AAD /* ZZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CBD2625718700CD3AAD /* ZZPerson.m */; };
+		FAFF0CDD2625718700CD3AAD /* ZZLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CBE2625718700CD3AAD /* ZZLanguage.m */; };
+		FAFF0CDE2625718700CD3AAD /* ZZOperationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CC02625718700CD3AAD /* ZZOperationModel.m */; };
+		FAFF0CDF2625718700CD3AAD /* MMCircleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CC52625718700CD3AAD /* MMCircleMenu.m */; };
+		FAFF0CE02625718700CD3AAD /* UIWindow+MBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CC72625718700CD3AAD /* UIWindow+MBLog.m */; };
+		FAFF0CE12625718700CD3AAD /* MMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CC82625718700CD3AAD /* MMLog.m */; };
+		FAFF0CE22625718700CD3AAD /* MMLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CCA2625718700CD3AAD /* MMLogView.m */; };
+		FAFF0CE32625718700CD3AAD /* ZZHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CCD2625718700CD3AAD /* ZZHuman.m */; };
+		FAFF0CE42625718700CD3AAD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CD12625718700CD3AAD /* Person.m */; };
+		FAFF0CE52625718700CD3AAD /* Person+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CD22625718700CD3AAD /* Person+Test.m */; };
+		FAFF0CE62625718700CD3AAD /* ZZFilterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CD52625718700CD3AAD /* ZZFilterTest.m */; };
+		FAFF0CEC262571E100CD3AAD /* ZZPerformanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF0CEB262571E100CD3AAD /* ZZPerformanceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -425,6 +487,140 @@
 		B1FC384F230CDE7E0047A34A /* DNAdJSONLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONLabel.h; sourceTree = "<group>"; };
 		B1FC3850230CDE7E0047A34A /* DNAdJSONImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAdJSONImageView.h; sourceTree = "<group>"; };
 		B730FEDF762296B966DDF28C /* Pods-ZZKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZKit/Pods-ZZKit.debug.xcconfig"; sourceTree = "<group>"; };
+		FAFF0C05262564CD00CD3AAD /* ZZDesignPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZDesignPatternViewController.h; sourceTree = "<group>"; };
+		FAFF0C06262564CD00CD3AAD /* ZZDesignPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZDesignPatternViewController.m; sourceTree = "<group>"; };
+		FAFF0C1226256C4400CD3AAD /* ZZSoldState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSoldState.m; sourceTree = "<group>"; };
+		FAFF0C1326256C4400CD3AAD /* ZZSaleMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSaleMachine.h; sourceTree = "<group>"; };
+		FAFF0C1426256C4400CD3AAD /* ZZNoMoenyState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNoMoenyState.m; sourceTree = "<group>"; };
+		FAFF0C1526256C4400CD3AAD /* ZZSoldOutState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSoldOutState.m; sourceTree = "<group>"; };
+		FAFF0C1626256C4400CD3AAD /* ZZHasMoneyState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHasMoneyState.h; sourceTree = "<group>"; };
+		FAFF0C1726256C4400CD3AAD /* ZZSaleMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSaleMachine.m; sourceTree = "<group>"; };
+		FAFF0C1826256C4400CD3AAD /* ZZStateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZStateProtocol.h; sourceTree = "<group>"; };
+		FAFF0C1926256C4400CD3AAD /* ZZSoldState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSoldState.h; sourceTree = "<group>"; };
+		FAFF0C1A26256C4400CD3AAD /* ZZNoMoenyState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNoMoenyState.h; sourceTree = "<group>"; };
+		FAFF0C1B26256C4400CD3AAD /* ZZSoldOutState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSoldOutState.h; sourceTree = "<group>"; };
+		FAFF0C1C26256C4400CD3AAD /* ZZHasMoneyState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHasMoneyState.m; sourceTree = "<group>"; };
+		FAFF0C1E26256C4400CD3AAD /* FBSettingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSettingWindow.m; sourceTree = "<group>"; };
+		FAFF0C1F26256C4400CD3AAD /* FunctionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionButton.h; sourceTree = "<group>"; };
+		FAFF0C2026256C4400CD3AAD /* ZZMinimizeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZMinimizeCommand.m; sourceTree = "<group>"; };
+		FAFF0C2126256C4400CD3AAD /* ZZHelpHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHelpHandler.m; sourceTree = "<group>"; };
+		FAFF0C2226256C4400CD3AAD /* ZZHelpCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHelpCommand.m; sourceTree = "<group>"; };
+		FAFF0C2326256C4400CD3AAD /* ZZWindowHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWindowHandler.h; sourceTree = "<group>"; };
+		FAFF0C2426256C4400CD3AAD /* FunctionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionButton.m; sourceTree = "<group>"; };
+		FAFF0C2526256C4400CD3AAD /* FBSettingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSettingWindow.h; sourceTree = "<group>"; };
+		FAFF0C2626256C4400CD3AAD /* ZZMinimizeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZMinimizeCommand.h; sourceTree = "<group>"; };
+		FAFF0C2726256C4400CD3AAD /* ZZHelpCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHelpCommand.h; sourceTree = "<group>"; };
+		FAFF0C2826256C4400CD3AAD /* ZZHelpHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHelpHandler.h; sourceTree = "<group>"; };
+		FAFF0C2926256C4400CD3AAD /* ZZWindowHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWindowHandler.m; sourceTree = "<group>"; };
+		FAFF0C2A26256C4400CD3AAD /* ZZCommandProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCommandProtocol.h; sourceTree = "<group>"; };
+		FAFF0C2C26256C4400CD3AAD /* ZZAccountNormalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAccountNormalState.h; sourceTree = "<group>"; };
+		FAFF0C2D26256C4400CD3AAD /* ZZAccountOverdraftState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZAccountOverdraftState.m; sourceTree = "<group>"; };
+		FAFF0C2E26256C4400CD3AAD /* ZZAccountRestrictedState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZAccountRestrictedState.m; sourceTree = "<group>"; };
+		FAFF0C2F26256C4400CD3AAD /* ZZAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAccount.h; sourceTree = "<group>"; };
+		FAFF0C3026256C4400CD3AAD /* ZZAccountNormalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZAccountNormalState.m; sourceTree = "<group>"; };
+		FAFF0C3126256C4400CD3AAD /* ZZAccountStateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAccountStateProtocol.h; sourceTree = "<group>"; };
+		FAFF0C3226256C4400CD3AAD /* ZZAccountRestrictedState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAccountRestrictedState.h; sourceTree = "<group>"; };
+		FAFF0C3326256C4400CD3AAD /* ZZAccountOverdraftState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAccountOverdraftState.h; sourceTree = "<group>"; };
+		FAFF0C3426256C4400CD3AAD /* ZZAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZAccount.m; sourceTree = "<group>"; };
+		FAFF0C3626256C4400CD3AAD /* ReceiverA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiverA.h; sourceTree = "<group>"; };
+		FAFF0C3726256C4400CD3AAD /* ConcreteCommandB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteCommandB.h; sourceTree = "<group>"; };
+		FAFF0C3826256C4400CD3AAD /* ReceiverC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiverC.m; sourceTree = "<group>"; };
+		FAFF0C3926256C4400CD3AAD /* ConcreteCommandA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteCommandA.h; sourceTree = "<group>"; };
+		FAFF0C3A26256C4400CD3AAD /* ReceiverB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiverB.h; sourceTree = "<group>"; };
+		FAFF0C3B26256C4400CD3AAD /* Invoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		FAFF0C3C26256C4400CD3AAD /* ConcreteCommandC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteCommandC.m; sourceTree = "<group>"; };
+		FAFF0C3D26256C4400CD3AAD /* ReceiverC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiverC.h; sourceTree = "<group>"; };
+		FAFF0C3E26256C4400CD3AAD /* ConcreteCommandB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteCommandB.m; sourceTree = "<group>"; };
+		FAFF0C3F26256C4400CD3AAD /* ReceiverA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiverA.m; sourceTree = "<group>"; };
+		FAFF0C4026256C4400CD3AAD /* ConcreteCommandC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteCommandC.h; sourceTree = "<group>"; };
+		FAFF0C4126256C4400CD3AAD /* ReceiverB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiverB.m; sourceTree = "<group>"; };
+		FAFF0C4226256C4400CD3AAD /* Invoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		FAFF0C4326256C4400CD3AAD /* ConcreteCommandA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteCommandA.m; sourceTree = "<group>"; };
+		FAFF0C4426256C4400CD3AAD /* AbstractCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractCommand.h; sourceTree = "<group>"; };
+		FAFF0C4626256C4400CD3AAD /* MBCarStatePrepareActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarStatePrepareActionHandler.h; sourceTree = "<group>"; };
+		FAFF0C4726256C4400CD3AAD /* MBCarStateEndDriveActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarStateEndDriveActionHandler.h; sourceTree = "<group>"; };
+		FAFF0C4826256C4400CD3AAD /* MBCarStateCanclePrepareActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarStateCanclePrepareActionHandler.m; sourceTree = "<group>"; };
+		FAFF0C4926256C4400CD3AAD /* MBCarStateActionChainTail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarStateActionChainTail.m; sourceTree = "<group>"; };
+		FAFF0C4A26256C4400CD3AAD /* MBCarStateJoinActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarStateJoinActionHandler.m; sourceTree = "<group>"; };
+		FAFF0C4B26256C4400CD3AAD /* MBCarStateActionChainHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarStateActionChainHeader.m; sourceTree = "<group>"; };
+		FAFF0C4C26256C4400CD3AAD /* MBCarStateButtonClickRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarStateButtonClickRequest.h; sourceTree = "<group>"; };
+		FAFF0C4D26256C4400CD3AAD /* MBCarStateRemindActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarStateRemindActionHandler.m; sourceTree = "<group>"; };
+		FAFF0C4E26256C4400CD3AAD /* MBCarStateDriveActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarStateDriveActionHandler.m; sourceTree = "<group>"; };
+		FAFF0C4F26256C4400CD3AAD /* MBCarStateEndDriveActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarStateEndDriveActionHandler.m; sourceTree = "<group>"; };
+		FAFF0C5026256C4400CD3AAD /* MBCarStateCanclePrepareActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarStateCanclePrepareActionHandler.h; sourceTree = "<group>"; };
+		FAFF0C5126256C4400CD3AAD /* MBCarStatePrepareActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarStatePrepareActionHandler.m; sourceTree = "<group>"; };
+		FAFF0C5226256C4400CD3AAD /* MBCarStateButtonActionChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarStateButtonActionChain.h; sourceTree = "<group>"; };
+		FAFF0C5326256C4400CD3AAD /* MBCarStateJoinActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarStateJoinActionHandler.h; sourceTree = "<group>"; };
+		FAFF0C5426256C4400CD3AAD /* MBCarStateActionChainTail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarStateActionChainTail.h; sourceTree = "<group>"; };
+		FAFF0C5526256C4400CD3AAD /* MBCarStateDriveActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarStateDriveActionHandler.h; sourceTree = "<group>"; };
+		FAFF0C5626256C4400CD3AAD /* MBCarStateRemindActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarStateRemindActionHandler.h; sourceTree = "<group>"; };
+		FAFF0C5726256C4400CD3AAD /* MBCarStateButtonClickRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarStateButtonClickRequest.m; sourceTree = "<group>"; };
+		FAFF0C5826256C4400CD3AAD /* MBCarStateActionChainHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarStateActionChainHeader.h; sourceTree = "<group>"; };
+		FAFF0C5A26256C4400CD3AAD /* MBCarSeatOnState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarSeatOnState.m; sourceTree = "<group>"; };
+		FAFF0C5B26256C4400CD3AAD /* MBCarSeatCloseState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarSeatCloseState.h; sourceTree = "<group>"; };
+		FAFF0C5C26256C4400CD3AAD /* MBCarSeatStateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarSeatStateProtocol.h; sourceTree = "<group>"; };
+		FAFF0C5D26256C4400CD3AAD /* MBCarSeatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarSeatModel.m; sourceTree = "<group>"; };
+		FAFF0C5E26256C4400CD3AAD /* MBCarPlayerContainerViewModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarPlayerContainerViewModule.h; sourceTree = "<group>"; };
+		FAFF0C5F26256C4400CD3AAD /* MBCarSeatStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarSeatStateMachine.h; sourceTree = "<group>"; };
+		FAFF0C6026256C4400CD3AAD /* MBCarSeatInvalidState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarSeatInvalidState.m; sourceTree = "<group>"; };
+		FAFF0C6126256C4400CD3AAD /* MBCarSeatOpenState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarSeatOpenState.m; sourceTree = "<group>"; };
+		FAFF0C6226256C4400CD3AAD /* MBCarSeatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarSeatModel.h; sourceTree = "<group>"; };
+		FAFF0C6326256C4400CD3AAD /* MBCarSeatCloseState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarSeatCloseState.m; sourceTree = "<group>"; };
+		FAFF0C6426256C4400CD3AAD /* MBCarSeatOnState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarSeatOnState.h; sourceTree = "<group>"; };
+		FAFF0C6526256C4400CD3AAD /* MBCarSeatStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarSeatStateMachine.m; sourceTree = "<group>"; };
+		FAFF0C6626256C4400CD3AAD /* MBCarPlayerContainerViewModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCarPlayerContainerViewModule.m; sourceTree = "<group>"; };
+		FAFF0C6726256C4400CD3AAD /* MBCarSeatInvalidState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarSeatInvalidState.h; sourceTree = "<group>"; };
+		FAFF0C6826256C4400CD3AAD /* MBCarSeatOpenState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarSeatOpenState.h; sourceTree = "<group>"; };
+		FAFF0C6926256C4400CD3AAD /* MBCarPlayerViewLayoutProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCarPlayerViewLayoutProtocol.h; sourceTree = "<group>"; };
+		FAFF0C6B26256C4400CD3AAD /* AvatarCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarCommand.h; sourceTree = "<group>"; };
+		FAFF0C6C26256C4400CD3AAD /* AddSeatCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSeatCommand.h; sourceTree = "<group>"; };
+		FAFF0C6D26256C4400CD3AAD /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		FAFF0C6E26256C4400CD3AAD /* Cumtomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cumtomer.m; sourceTree = "<group>"; };
+		FAFF0C6F26256C4400CD3AAD /* SeatChangeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeatChangeCommand.m; sourceTree = "<group>"; };
+		FAFF0C7026256C4400CD3AAD /* AvatarCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarCommand.m; sourceTree = "<group>"; };
+		FAFF0C7126256C4400CD3AAD /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		FAFF0C7226256C4400CD3AAD /* AddSeatCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSeatCommand.m; sourceTree = "<group>"; };
+		FAFF0C7326256C4400CD3AAD /* Cumtomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cumtomer.h; sourceTree = "<group>"; };
+		FAFF0C7426256C4400CD3AAD /* SeatChangeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatChangeCommand.h; sourceTree = "<group>"; };
+		FAFF0CAB2625718600CD3AAD /* ZZPriorityQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZPriorityQueue.mm; sourceTree = "<group>"; };
+		FAFF0CAC2625718600CD3AAD /* ZZPhotoAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPhotoAlbumViewController.h; sourceTree = "<group>"; };
+		FAFF0CAD2625718600CD3AAD /* ZZPhotoAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPhotoAlbumCell.m; sourceTree = "<group>"; };
+		FAFF0CAE2625718600CD3AAD /* ZZPriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPriorityQueue.h; sourceTree = "<group>"; };
+		FAFF0CAF2625718700CD3AAD /* ZZTaskSchedulerTypedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTaskSchedulerTypedef.h; sourceTree = "<group>"; };
+		FAFF0CB02625718700CD3AAD /* ZZTaskQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZTaskQueue.mm; sourceTree = "<group>"; };
+		FAFF0CB12625718700CD3AAD /* ZZTaskScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTaskScheduler.m; sourceTree = "<group>"; };
+		FAFF0CB22625718700CD3AAD /* ZZTaskSchedulerStrategyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTaskSchedulerStrategyProtocol.h; sourceTree = "<group>"; };
+		FAFF0CB32625718700CD3AAD /* ZZPhotoAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPhotoAlbumCell.h; sourceTree = "<group>"; };
+		FAFF0CB42625718700CD3AAD /* ZZTaskStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTaskStack.h; sourceTree = "<group>"; };
+		FAFF0CB52625718700CD3AAD /* ZZPhotoAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPhotoAlbumViewController.m; sourceTree = "<group>"; };
+		FAFF0CB62625718700CD3AAD /* ZZTaskStack.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZTaskStack.mm; sourceTree = "<group>"; };
+		FAFF0CB72625718700CD3AAD /* ZZTaskScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTaskScheduler.h; sourceTree = "<group>"; };
+		FAFF0CB82625718700CD3AAD /* ZZTaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTaskQueue.h; sourceTree = "<group>"; };
+		FAFF0CB92625718700CD3AAD /* ZZTaskScheduler+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZZTaskScheduler+Internal.h"; sourceTree = "<group>"; };
+		FAFF0CBB2625718700CD3AAD /* ZZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPerson.h; sourceTree = "<group>"; };
+		FAFF0CBC2625718700CD3AAD /* ZZLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLanguage.h; sourceTree = "<group>"; };
+		FAFF0CBD2625718700CD3AAD /* ZZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPerson.m; sourceTree = "<group>"; };
+		FAFF0CBE2625718700CD3AAD /* ZZLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLanguage.m; sourceTree = "<group>"; };
+		FAFF0CC02625718700CD3AAD /* ZZOperationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZOperationModel.m; sourceTree = "<group>"; };
+		FAFF0CC12625718700CD3AAD /* ZZOperationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZOperationModel.h; sourceTree = "<group>"; };
+		FAFF0CC32625718700CD3AAD /* MMLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLog.h; sourceTree = "<group>"; };
+		FAFF0CC42625718700CD3AAD /* UIWindow+MBLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+MBLog.h"; sourceTree = "<group>"; };
+		FAFF0CC52625718700CD3AAD /* MMCircleMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCircleMenu.m; sourceTree = "<group>"; };
+		FAFF0CC62625718700CD3AAD /* MMLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLogView.h; sourceTree = "<group>"; };
+		FAFF0CC72625718700CD3AAD /* UIWindow+MBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+MBLog.m"; sourceTree = "<group>"; };
+		FAFF0CC82625718700CD3AAD /* MMLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLog.m; sourceTree = "<group>"; };
+		FAFF0CC92625718700CD3AAD /* MMCircleMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCircleMenu.h; sourceTree = "<group>"; };
+		FAFF0CCA2625718700CD3AAD /* MMLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLogView.m; sourceTree = "<group>"; };
+		FAFF0CCC2625718700CD3AAD /* ZZHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHuman.h; sourceTree = "<group>"; };
+		FAFF0CCD2625718700CD3AAD /* ZZHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHuman.m; sourceTree = "<group>"; };
+		FAFF0CCF2625718700CD3AAD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FAFF0CD02625718700CD3AAD /* Person+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Test.h"; sourceTree = "<group>"; };
+		FAFF0CD12625718700CD3AAD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FAFF0CD22625718700CD3AAD /* Person+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Test.m"; sourceTree = "<group>"; };
+		FAFF0CD42625718700CD3AAD /* ZZFilterTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFilterTest.h; sourceTree = "<group>"; };
+		FAFF0CD52625718700CD3AAD /* ZZFilterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFilterTest.m; sourceTree = "<group>"; };
+		FAFF0CEA262571E100CD3AAD /* ZZPerformanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPerformanceViewController.h; sourceTree = "<group>"; };
+		FAFF0CEB262571E100CD3AAD /* ZZPerformanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPerformanceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -818,6 +1014,8 @@
 		B1D12611226EF55E008F7EE7 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				FAFF0CA92625718600CD3AAD /* 高性能 */,
+				FAFF0C042625649C00CD3AAD /* DesignPattern */,
 				B1FC377B230CDC620047A34A /* JSONToView */,
 				B1936292230503D600D06B60 /* Animation */,
 				B15097FB22B9CCF500F8063C /* AutoLayout */,
@@ -1045,6 +1243,266 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FAFF0C042625649C00CD3AAD /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0C4526256C4400CD3AAD /* Chain */,
+				FAFF0C3526256C4400CD3AAD /* Command */,
+				FAFF0C1D26256C4400CD3AAD /* CommandPattern */,
+				FAFF0C6A26256C4400CD3AAD /* CommandPattern2 */,
+				FAFF0C5926256C4400CD3AAD /* SeatState */,
+				FAFF0C1126256C4400CD3AAD /* State */,
+				FAFF0C2B26256C4400CD3AAD /* StatePattern */,
+				FAFF0C05262564CD00CD3AAD /* ZZDesignPatternViewController.h */,
+				FAFF0C06262564CD00CD3AAD /* ZZDesignPatternViewController.m */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		FAFF0C1126256C4400CD3AAD /* State */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0C1226256C4400CD3AAD /* ZZSoldState.m */,
+				FAFF0C1326256C4400CD3AAD /* ZZSaleMachine.h */,
+				FAFF0C1426256C4400CD3AAD /* ZZNoMoenyState.m */,
+				FAFF0C1526256C4400CD3AAD /* ZZSoldOutState.m */,
+				FAFF0C1626256C4400CD3AAD /* ZZHasMoneyState.h */,
+				FAFF0C1726256C4400CD3AAD /* ZZSaleMachine.m */,
+				FAFF0C1826256C4400CD3AAD /* ZZStateProtocol.h */,
+				FAFF0C1926256C4400CD3AAD /* ZZSoldState.h */,
+				FAFF0C1A26256C4400CD3AAD /* ZZNoMoenyState.h */,
+				FAFF0C1B26256C4400CD3AAD /* ZZSoldOutState.h */,
+				FAFF0C1C26256C4400CD3AAD /* ZZHasMoneyState.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		FAFF0C1D26256C4400CD3AAD /* CommandPattern */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0C1E26256C4400CD3AAD /* FBSettingWindow.m */,
+				FAFF0C1F26256C4400CD3AAD /* FunctionButton.h */,
+				FAFF0C2026256C4400CD3AAD /* ZZMinimizeCommand.m */,
+				FAFF0C2126256C4400CD3AAD /* ZZHelpHandler.m */,
+				FAFF0C2226256C4400CD3AAD /* ZZHelpCommand.m */,
+				FAFF0C2326256C4400CD3AAD /* ZZWindowHandler.h */,
+				FAFF0C2426256C4400CD3AAD /* FunctionButton.m */,
+				FAFF0C2526256C4400CD3AAD /* FBSettingWindow.h */,
+				FAFF0C2626256C4400CD3AAD /* ZZMinimizeCommand.h */,
+				FAFF0C2726256C4400CD3AAD /* ZZHelpCommand.h */,
+				FAFF0C2826256C4400CD3AAD /* ZZHelpHandler.h */,
+				FAFF0C2926256C4400CD3AAD /* ZZWindowHandler.m */,
+				FAFF0C2A26256C4400CD3AAD /* ZZCommandProtocol.h */,
+			);
+			path = CommandPattern;
+			sourceTree = "<group>";
+		};
+		FAFF0C2B26256C4400CD3AAD /* StatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0C2C26256C4400CD3AAD /* ZZAccountNormalState.h */,
+				FAFF0C2D26256C4400CD3AAD /* ZZAccountOverdraftState.m */,
+				FAFF0C2E26256C4400CD3AAD /* ZZAccountRestrictedState.m */,
+				FAFF0C2F26256C4400CD3AAD /* ZZAccount.h */,
+				FAFF0C3026256C4400CD3AAD /* ZZAccountNormalState.m */,
+				FAFF0C3126256C4400CD3AAD /* ZZAccountStateProtocol.h */,
+				FAFF0C3226256C4400CD3AAD /* ZZAccountRestrictedState.h */,
+				FAFF0C3326256C4400CD3AAD /* ZZAccountOverdraftState.h */,
+				FAFF0C3426256C4400CD3AAD /* ZZAccount.m */,
+			);
+			path = StatePattern;
+			sourceTree = "<group>";
+		};
+		FAFF0C3526256C4400CD3AAD /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0C3626256C4400CD3AAD /* ReceiverA.h */,
+				FAFF0C3726256C4400CD3AAD /* ConcreteCommandB.h */,
+				FAFF0C3826256C4400CD3AAD /* ReceiverC.m */,
+				FAFF0C3926256C4400CD3AAD /* ConcreteCommandA.h */,
+				FAFF0C3A26256C4400CD3AAD /* ReceiverB.h */,
+				FAFF0C3B26256C4400CD3AAD /* Invoker.h */,
+				FAFF0C3C26256C4400CD3AAD /* ConcreteCommandC.m */,
+				FAFF0C3D26256C4400CD3AAD /* ReceiverC.h */,
+				FAFF0C3E26256C4400CD3AAD /* ConcreteCommandB.m */,
+				FAFF0C3F26256C4400CD3AAD /* ReceiverA.m */,
+				FAFF0C4026256C4400CD3AAD /* ConcreteCommandC.h */,
+				FAFF0C4126256C4400CD3AAD /* ReceiverB.m */,
+				FAFF0C4226256C4400CD3AAD /* Invoker.m */,
+				FAFF0C4326256C4400CD3AAD /* ConcreteCommandA.m */,
+				FAFF0C4426256C4400CD3AAD /* AbstractCommand.h */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		FAFF0C4526256C4400CD3AAD /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0C4626256C4400CD3AAD /* MBCarStatePrepareActionHandler.h */,
+				FAFF0C4726256C4400CD3AAD /* MBCarStateEndDriveActionHandler.h */,
+				FAFF0C4826256C4400CD3AAD /* MBCarStateCanclePrepareActionHandler.m */,
+				FAFF0C4926256C4400CD3AAD /* MBCarStateActionChainTail.m */,
+				FAFF0C4A26256C4400CD3AAD /* MBCarStateJoinActionHandler.m */,
+				FAFF0C4B26256C4400CD3AAD /* MBCarStateActionChainHeader.m */,
+				FAFF0C4C26256C4400CD3AAD /* MBCarStateButtonClickRequest.h */,
+				FAFF0C4D26256C4400CD3AAD /* MBCarStateRemindActionHandler.m */,
+				FAFF0C4E26256C4400CD3AAD /* MBCarStateDriveActionHandler.m */,
+				FAFF0C4F26256C4400CD3AAD /* MBCarStateEndDriveActionHandler.m */,
+				FAFF0C5026256C4400CD3AAD /* MBCarStateCanclePrepareActionHandler.h */,
+				FAFF0C5126256C4400CD3AAD /* MBCarStatePrepareActionHandler.m */,
+				FAFF0C5226256C4400CD3AAD /* MBCarStateButtonActionChain.h */,
+				FAFF0C5326256C4400CD3AAD /* MBCarStateJoinActionHandler.h */,
+				FAFF0C5426256C4400CD3AAD /* MBCarStateActionChainTail.h */,
+				FAFF0C5526256C4400CD3AAD /* MBCarStateDriveActionHandler.h */,
+				FAFF0C5626256C4400CD3AAD /* MBCarStateRemindActionHandler.h */,
+				FAFF0C5726256C4400CD3AAD /* MBCarStateButtonClickRequest.m */,
+				FAFF0C5826256C4400CD3AAD /* MBCarStateActionChainHeader.h */,
+			);
+			path = Chain;
+			sourceTree = "<group>";
+		};
+		FAFF0C5926256C4400CD3AAD /* SeatState */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0C5A26256C4400CD3AAD /* MBCarSeatOnState.m */,
+				FAFF0C5B26256C4400CD3AAD /* MBCarSeatCloseState.h */,
+				FAFF0C5C26256C4400CD3AAD /* MBCarSeatStateProtocol.h */,
+				FAFF0C5D26256C4400CD3AAD /* MBCarSeatModel.m */,
+				FAFF0C5E26256C4400CD3AAD /* MBCarPlayerContainerViewModule.h */,
+				FAFF0C5F26256C4400CD3AAD /* MBCarSeatStateMachine.h */,
+				FAFF0C6026256C4400CD3AAD /* MBCarSeatInvalidState.m */,
+				FAFF0C6126256C4400CD3AAD /* MBCarSeatOpenState.m */,
+				FAFF0C6226256C4400CD3AAD /* MBCarSeatModel.h */,
+				FAFF0C6326256C4400CD3AAD /* MBCarSeatCloseState.m */,
+				FAFF0C6426256C4400CD3AAD /* MBCarSeatOnState.h */,
+				FAFF0C6526256C4400CD3AAD /* MBCarSeatStateMachine.m */,
+				FAFF0C6626256C4400CD3AAD /* MBCarPlayerContainerViewModule.m */,
+				FAFF0C6726256C4400CD3AAD /* MBCarSeatInvalidState.h */,
+				FAFF0C6826256C4400CD3AAD /* MBCarSeatOpenState.h */,
+				FAFF0C6926256C4400CD3AAD /* MBCarPlayerViewLayoutProtocol.h */,
+			);
+			path = SeatState;
+			sourceTree = "<group>";
+		};
+		FAFF0C6A26256C4400CD3AAD /* CommandPattern2 */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0C6B26256C4400CD3AAD /* AvatarCommand.h */,
+				FAFF0C6C26256C4400CD3AAD /* AddSeatCommand.h */,
+				FAFF0C6D26256C4400CD3AAD /* Command.m */,
+				FAFF0C6E26256C4400CD3AAD /* Cumtomer.m */,
+				FAFF0C6F26256C4400CD3AAD /* SeatChangeCommand.m */,
+				FAFF0C7026256C4400CD3AAD /* AvatarCommand.m */,
+				FAFF0C7126256C4400CD3AAD /* Command.h */,
+				FAFF0C7226256C4400CD3AAD /* AddSeatCommand.m */,
+				FAFF0C7326256C4400CD3AAD /* Cumtomer.h */,
+				FAFF0C7426256C4400CD3AAD /* SeatChangeCommand.h */,
+			);
+			path = CommandPattern2;
+			sourceTree = "<group>";
+		};
+		FAFF0CA92625718600CD3AAD /* 高性能 */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0CAA2625718600CD3AAD /* TaskScheduler */,
+				FAFF0CBA2625718700CD3AAD /* 泛型 */,
+				FAFF0CBF2625718700CD3AAD /* 逻辑运算&位移枚举 */,
+				FAFF0CC22625718700CD3AAD /* Log */,
+				FAFF0CCB2625718700CD3AAD /* 弱引用集合 */,
+				FAFF0CCE2625718700CD3AAD /* 关联对象 */,
+				FAFF0CD32625718700CD3AAD /* 正则过滤 */,
+				FAFF0CEA262571E100CD3AAD /* ZZPerformanceViewController.h */,
+				FAFF0CEB262571E100CD3AAD /* ZZPerformanceViewController.m */,
+			);
+			path = "高性能";
+			sourceTree = "<group>";
+		};
+		FAFF0CAA2625718600CD3AAD /* TaskScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0CB32625718700CD3AAD /* ZZPhotoAlbumCell.h */,
+				FAFF0CAD2625718600CD3AAD /* ZZPhotoAlbumCell.m */,
+				FAFF0CAC2625718600CD3AAD /* ZZPhotoAlbumViewController.h */,
+				FAFF0CB52625718700CD3AAD /* ZZPhotoAlbumViewController.m */,
+				FAFF0CAE2625718600CD3AAD /* ZZPriorityQueue.h */,
+				FAFF0CAB2625718600CD3AAD /* ZZPriorityQueue.mm */,
+				FAFF0CB82625718700CD3AAD /* ZZTaskQueue.h */,
+				FAFF0CB02625718700CD3AAD /* ZZTaskQueue.mm */,
+				FAFF0CB72625718700CD3AAD /* ZZTaskScheduler.h */,
+				FAFF0CB12625718700CD3AAD /* ZZTaskScheduler.m */,
+				FAFF0CB92625718700CD3AAD /* ZZTaskScheduler+Internal.h */,
+				FAFF0CB22625718700CD3AAD /* ZZTaskSchedulerStrategyProtocol.h */,
+				FAFF0CAF2625718700CD3AAD /* ZZTaskSchedulerTypedef.h */,
+				FAFF0CB42625718700CD3AAD /* ZZTaskStack.h */,
+				FAFF0CB62625718700CD3AAD /* ZZTaskStack.mm */,
+			);
+			path = TaskScheduler;
+			sourceTree = "<group>";
+		};
+		FAFF0CBA2625718700CD3AAD /* 泛型 */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0CBB2625718700CD3AAD /* ZZPerson.h */,
+				FAFF0CBC2625718700CD3AAD /* ZZLanguage.h */,
+				FAFF0CBD2625718700CD3AAD /* ZZPerson.m */,
+				FAFF0CBE2625718700CD3AAD /* ZZLanguage.m */,
+			);
+			path = "泛型";
+			sourceTree = "<group>";
+		};
+		FAFF0CBF2625718700CD3AAD /* 逻辑运算&位移枚举 */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0CC02625718700CD3AAD /* ZZOperationModel.m */,
+				FAFF0CC12625718700CD3AAD /* ZZOperationModel.h */,
+			);
+			path = "逻辑运算&位移枚举";
+			sourceTree = "<group>";
+		};
+		FAFF0CC22625718700CD3AAD /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0CC32625718700CD3AAD /* MMLog.h */,
+				FAFF0CC42625718700CD3AAD /* UIWindow+MBLog.h */,
+				FAFF0CC52625718700CD3AAD /* MMCircleMenu.m */,
+				FAFF0CC62625718700CD3AAD /* MMLogView.h */,
+				FAFF0CC72625718700CD3AAD /* UIWindow+MBLog.m */,
+				FAFF0CC82625718700CD3AAD /* MMLog.m */,
+				FAFF0CC92625718700CD3AAD /* MMCircleMenu.h */,
+				FAFF0CCA2625718700CD3AAD /* MMLogView.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		FAFF0CCB2625718700CD3AAD /* 弱引用集合 */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0CCC2625718700CD3AAD /* ZZHuman.h */,
+				FAFF0CCD2625718700CD3AAD /* ZZHuman.m */,
+			);
+			path = "弱引用集合";
+			sourceTree = "<group>";
+		};
+		FAFF0CCE2625718700CD3AAD /* 关联对象 */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0CCF2625718700CD3AAD /* Person.h */,
+				FAFF0CD02625718700CD3AAD /* Person+Test.h */,
+				FAFF0CD12625718700CD3AAD /* Person.m */,
+				FAFF0CD22625718700CD3AAD /* Person+Test.m */,
+			);
+			path = "关联对象";
+			sourceTree = "<group>";
+		};
+		FAFF0CD32625718700CD3AAD /* 正则过滤 */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF0CD42625718700CD3AAD /* ZZFilterTest.h */,
+				FAFF0CD52625718700CD3AAD /* ZZFilterTest.m */,
+			);
+			path = "正则过滤";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1251,6 +1709,8 @@
 				B15098A222C20FE000F8063C /* ZZAutoLayout1ViewController.m in Sources */,
 				B1FC3852230CDE7E0047A34A /* UIView+DNAdFrame.m in Sources */,
 				B12CC35022D82B6A0028C97C /* ZZThread8ViewController.m in Sources */,
+				FAFF0CD92625718700CD3AAD /* ZZTaskScheduler.m in Sources */,
+				FAFF0C9826256C4400CD3AAD /* MBCarSeatCloseState.m in Sources */,
 				B176FA172271882B0009ABDD /* ZZPickerViewDemoController.m in Sources */,
 				B1FC386A230CDE7E0047A34A /* DNAdYYImageCache.m in Sources */,
 				B1C92F03229E89F200CB4905 /* ZZThread5ViewController.m in Sources */,
@@ -1258,25 +1718,46 @@
 				B1C92F00229E824A00CB4905 /* DNStatisticWeakTimer.m in Sources */,
 				B1D12615226EF55E008F7EE7 /* HooDatePicker.m in Sources */,
 				B1B3C77A227EDA6700F53872 /* ZZVideoObject.m in Sources */,
+				FAFF0C8826256C4400CD3AAD /* ReceiverB.m in Sources */,
+				FAFF0C8326256C4400CD3AAD /* ZZAccount.m in Sources */,
+				FAFF0C8726256C4400CD3AAD /* ReceiverA.m in Sources */,
+				FAFF0CE12625718700CD3AAD /* MMLog.m in Sources */,
+				FAFF0C9B26256C4400CD3AAD /* Command.m in Sources */,
 				B176FA1A227188580009ABDD /* GPUImageTakePhotoViewController.m in Sources */,
 				B1FC386E230CDE7E0047A34A /* DNAdYYImage.m in Sources */,
+				FAFF0C8626256C4400CD3AAD /* ConcreteCommandB.m in Sources */,
 				B176FA1D2271888E0009ABDD /* GPUImageTakeVideoViewController.m in Sources */,
 				B1FC377E230CDC820047A34A /* ZZJSONToViewController.m in Sources */,
+				FAFF0CDF2625718700CD3AAD /* MMCircleMenu.m in Sources */,
 				B124AAD2229A744F003F3024 /* NSDictionary+AXNetworkingMethods.m in Sources */,
+				FAFF0CDE2625718700CD3AAD /* ZZOperationModel.m in Sources */,
+				FAFF0C07262564CD00CD3AAD /* ZZDesignPatternViewController.m in Sources */,
+				FAFF0C7826256C4400CD3AAD /* ZZSaleMachine.m in Sources */,
+				FAFF0C7D26256C4400CD3AAD /* ZZHelpCommand.m in Sources */,
 				B19362AD230504B000D06B60 /* DRFPhotoPopAnimation.m in Sources */,
 				B1FC3867230CDE7E0047A34A /* DNAdYYMemoryCache.m in Sources */,
 				B16F22262291552100DADD0E /* ZZThread3ViewController.m in Sources */,
+				FAFF0C8B26256C4400CD3AAD /* MBCarStateCanclePrepareActionHandler.m in Sources */,
 				B12CC35122D82B6A0028C97C /* ZZCocurrentOperation.m in Sources */,
+				FAFF0C9F26256C4400CD3AAD /* AddSeatCommand.m in Sources */,
 				B19362A9230504B000D06B60 /* DRFPhotoViewController.m in Sources */,
+				FAFF0C8C26256C4400CD3AAD /* MBCarStateActionChainTail.m in Sources */,
 				B1697AB62272E72600A5605B /* AVVideoCompositionController.m in Sources */,
 				B1FC3854230CDE7E0047A34A /* DNAdJSONNotificationManager.m in Sources */,
 				B11DA6132283F37200F81AA7 /* ZZOpenGLESDemoController.m in Sources */,
 				B1FC3869230CDE7E0047A34A /* DNAdYYDiskCache.m in Sources */,
+				FAFF0CD82625718700CD3AAD /* ZZTaskQueue.mm in Sources */,
+				FAFF0C7F26256C4400CD3AAD /* ZZWindowHandler.m in Sources */,
+				FAFF0C8426256C4400CD3AAD /* ReceiverC.m in Sources */,
+				FAFF0CE42625718700CD3AAD /* Person.m in Sources */,
 				B1FC3861230CDE7E0047A34A /* DNAdJSONImageModel.m in Sources */,
+				FAFF0C9126256C4400CD3AAD /* MBCarStateEndDriveActionHandler.m in Sources */,
 				B150980122BA045C00F8063C /* ZZLayoutViewController.m in Sources */,
 				B1FC3877230CDE7E0047A34A /* DNAdJSONLabel.m in Sources */,
 				B15097FE22B9CD2300F8063C /* ZZAutoLayoutViewController.m in Sources */,
 				B113F37D2286860200FAE8CE /* ZZGLKit2ViewController.m in Sources */,
+				FAFF0CDB2625718700CD3AAD /* ZZTaskStack.mm in Sources */,
+				FAFF0C9C26256C4400CD3AAD /* Cumtomer.m in Sources */,
 				B19362AC230504B000D06B60 /* DRFPhotoCommentViewController.m in Sources */,
 				B1FC3870230CDE7E0047A34A /* DNAdYYFrameImage.m in Sources */,
 				B1FC3864230CDE7E0047A34A /* DNAdJSONBaseModel.m in Sources */,
@@ -1284,50 +1765,73 @@
 				B19362A7230504B000D06B60 /* DRFPhotoPresentAnimation.m in Sources */,
 				B176FA162271882B0009ABDD /* GPUImageDemoViewController.m in Sources */,
 				B19362AA230504B000D06B60 /* DNPresentViewController.m in Sources */,
+				FAFF0CDC2625718700CD3AAD /* ZZPerson.m in Sources */,
 				B11DA6162283F4C400F81AA7 /* ZZGLKit1ViewController.m in Sources */,
 				B19362AB230504B000D06B60 /* DNDismissViewController.m in Sources */,
 				B16F20BC228EA54900DADD0E /* ZZThread0ViewController.m in Sources */,
 				B124AAD8229A7FBD003F3024 /* ZZNetworkTool.m in Sources */,
 				B17F25B422A755BE005DF8FD /* ZZThread6ViewController.m in Sources */,
 				B1ADFE5F2282A97B001E3055 /* GPUImageMutiFilterViewController3.m in Sources */,
+				FAFF0C8E26256C4400CD3AAD /* MBCarStateActionChainHeader.m in Sources */,
+				FAFF0C9226256C4400CD3AAD /* MBCarStatePrepareActionHandler.m in Sources */,
+				FAFF0C9D26256C4400CD3AAD /* SeatChangeCommand.m in Sources */,
 				B1FC3860230CDE7E0047A34A /* DNAdJSONViewModel.m in Sources */,
 				B1FC3862230CDE7E0047A34A /* DNAdJSONStackViewModel.m in Sources */,
 				B12CC35422DD64D30028C97C /* ZZCocurrentDemoOperation.m in Sources */,
 				B1B73835227E7BF400569670 /* ZZShortVideoTrimView.m in Sources */,
 				B1FC3865230CDE7E0047A34A /* DNAdJSONModel.m in Sources */,
+				FAFF0C7C26256C4400CD3AAD /* ZZHelpHandler.m in Sources */,
+				FAFF0CE52625718700CD3AAD /* Person+Test.m in Sources */,
+				FAFF0C8A26256C4400CD3AAD /* ConcreteCommandA.m in Sources */,
 				B1FC386B230CDE7E0047A34A /* DNAdYYWebImageOperation.m in Sources */,
 				B124AAD5229A74E5003F3024 /* NSArray+AXNetworkingMethods.m in Sources */,
 				B1684D2D228BA6D000501A08 /* ZZGLKit4ViewController.m in Sources */,
+				FAFF0CEC262571E100CD3AAD /* ZZPerformanceViewController.m in Sources */,
 				B12CC36322DDBBEA0028C97C /* ZZDownloadOperation.m in Sources */,
 				B1FC3851230CDE7E0047A34A /* UIView+DNAdAutoLayout.m in Sources */,
+				FAFF0C9626256C4400CD3AAD /* MBCarSeatInvalidState.m in Sources */,
+				FAFF0C7A26256C4400CD3AAD /* FBSettingWindow.m in Sources */,
+				FAFF0C7626256C4400CD3AAD /* ZZNoMoenyState.m in Sources */,
 				B1FC3781230CDCF80047A34A /* ZZJSONToViewDetailController.m in Sources */,
 				B1FC3874230CDE7E0047A34A /* UIImageView+DNAdYYWebImage.m in Sources */,
+				FAFF0CDD2625718700CD3AAD /* ZZLanguage.m in Sources */,
 				B19362A8230504B000D06B60 /* DRFPhotoAnimation.m in Sources */,
 				B1ADFE5022819512001E3055 /* GPUImageVideoCameraDemoController.m in Sources */,
 				B150E9AC225C3C4E00D03C2A /* ViewController.m in Sources */,
 				B15098E222C5F22800F8063C /* ZZImageModalViewController.m in Sources */,
 				B1D12614226EF55E008F7EE7 /* DNCustomPickerView.m in Sources */,
+				FAFF0C8226256C4400CD3AAD /* ZZAccountNormalState.m in Sources */,
 				B1ADFE5C2282A166001E3055 /* GPUImageMutiFilterViewController2.m in Sources */,
+				FAFF0C8926256C4400CD3AAD /* Invoker.m in Sources */,
 				B1FC385F230CDE7E0047A34A /* DNAdJSONMappers.m in Sources */,
 				B150980422BA04FC00F8063C /* ZZAutoLayout0ViewController.m in Sources */,
 				B150E9B7225C3C5000D03C2A /* main.m in Sources */,
 				B1FC3866230CDE7E0047A34A /* DNAdYYKVStorage.m in Sources */,
 				B113F37A22867C9700FAE8CE /* ZZGLKit0ViewController.m in Sources */,
 				B1697B2322770A0400A5605B /* ZZVideoTrimFrameCell.m in Sources */,
+				FAFF0CD62625718700CD3AAD /* ZZPriorityQueue.mm in Sources */,
 				B15098EA22C61A2F00F8063C /* ZZUIStackViewListController.m in Sources */,
 				B1697B1122769A3A00A5605B /* ZZArticleModel.m in Sources */,
 				B1FC3878230CDE7E0047A34A /* DNAdJSONView.m in Sources */,
+				FAFF0C7926256C4400CD3AAD /* ZZHasMoneyState.m in Sources */,
+				FAFF0C9426256C4400CD3AAD /* MBCarSeatOnState.m in Sources */,
 				B16F22292291626D00DADD0E /* ZZThread4ViewController.m in Sources */,
 				B1C92F55229FC3AA00CB4905 /* ZZRequet1ViewController.m in Sources */,
+				FAFF0CE32625718700CD3AAD /* ZZHuman.m in Sources */,
+				FAFF0C7E26256C4400CD3AAD /* FunctionButton.m in Sources */,
 				B1697B0B2276985F00A5605B /* ZZBlogListViewController.m in Sources */,
 				B12CC34E22D82B6A0028C97C /* ZZNoCocurrentOperation.m in Sources */,
+				FAFF0C7526256C4400CD3AAD /* ZZSoldState.m in Sources */,
+				FAFF0C8D26256C4400CD3AAD /* MBCarStateJoinActionHandler.m in Sources */,
 				B1697B082276984F00A5605B /* ZZArticleListViewController.m in Sources */,
 				B1FC3876230CDE7E0047A34A /* DNAdJSONImageView.m in Sources */,
 				B15098A822C2FE9700F8063C /* ZZRequet2ViewController.m in Sources */,
 				B1FC3863230CDE7E0047A34A /* DNAdJSONLabelModel.m in Sources */,
 				B1FC3879230CDE7E0047A34A /* DNAdJSONBaseView.m in Sources */,
 				B1697B0E22769A2100A5605B /* ZZWebViewController.m in Sources */,
+				FAFF0C9026256C4400CD3AAD /* MBCarStateDriveActionHandler.m in Sources */,
 				B176FA142271882B0009ABDD /* AVFoundationViewController.m in Sources */,
+				FAFF0C8526256C4400CD3AAD /* ConcreteCommandC.m in Sources */,
 				B1FC386F230CDE7E0047A34A /* DNAdYYImageCoder.m in Sources */,
 				B1C92F58229FC69B00CB4905 /* ZZReachability.m in Sources */,
 				B1FC3872230CDE7E0047A34A /* _DNAdYYWebImageSetter.m in Sources */,
@@ -1339,19 +1843,35 @@
 				B1697B262278287B00A5605B /* ZZVideoCompiler.m in Sources */,
 				B124AACC229A5E91003F3024 /* ZZNetwork.m in Sources */,
 				B124AA6A22963547003F3024 /* ZZRequest0ViewController.m in Sources */,
+				FAFF0C8F26256C4400CD3AAD /* MBCarStateRemindActionHandler.m in Sources */,
 				B12CC34F22D82B6A0028C97C /* ZZThread7ViewController.m in Sources */,
 				B16F2067228C0BC000DADD0E /* RHCRealTimeLogManager.m in Sources */,
+				FAFF0C9526256C4400CD3AAD /* MBCarSeatModel.m in Sources */,
 				B1936295230503FB00D06B60 /* ZZAnimationViewController.m in Sources */,
+				FAFF0CE02625718700CD3AAD /* UIWindow+MBLog.m in Sources */,
+				FAFF0C9326256C4400CD3AAD /* MBCarStateButtonClickRequest.m in Sources */,
+				FAFF0CE22625718700CD3AAD /* MMLogView.m in Sources */,
+				FAFF0CD72625718700CD3AAD /* ZZPhotoAlbumCell.m in Sources */,
+				FAFF0CDA2625718700CD3AAD /* ZZPhotoAlbumViewController.m in Sources */,
+				FAFF0C9E26256C4400CD3AAD /* AvatarCommand.m in Sources */,
+				FAFF0C7B26256C4400CD3AAD /* ZZMinimizeCommand.m in Sources */,
 				B176FA132271882B0009ABDD /* HTTPRequestViewController.m in Sources */,
 				B1ADFE53228199E9001E3055 /* GPUImageMutiFilterViewController.m in Sources */,
+				FAFF0C8126256C4400CD3AAD /* ZZAccountRestrictedState.m in Sources */,
 				B1FC386C230CDE7E0047A34A /* DNAdYYSpriteSheetImage.m in Sources */,
+				FAFF0C8026256C4400CD3AAD /* ZZAccountOverdraftState.m in Sources */,
 				B1FC3853230CDE7E0047A34A /* UIColor+DNAd.m in Sources */,
 				B1FC3873230CDE7E0047A34A /* UIImage+DNAdYYWebImage.m in Sources */,
+				FAFF0CE62625718700CD3AAD /* ZZFilterTest.m in Sources */,
 				B124AACF229A6DC3003F3024 /* ZZNetworkManager.m in Sources */,
 				B16F20BF228EA96F00DADD0E /* ZZThread1ViewController.m in Sources */,
 				B15098B122C4A7DF00F8063C /* ZZUIStackViewController.m in Sources */,
+				FAFF0C7726256C4400CD3AAD /* ZZSoldOutState.m in Sources */,
 				B19362A6230504B000D06B60 /* DRFPhotoDismissAnimation.m in Sources */,
 				B11DA60F2283C71A00F81AA7 /* RCGPUImageR101Filter.m in Sources */,
+				FAFF0C9726256C4400CD3AAD /* MBCarSeatOpenState.m in Sources */,
+				FAFF0C9A26256C4400CD3AAD /* MBCarPlayerContainerViewModule.m in Sources */,
+				FAFF0C9926256C4400CD3AAD /* MBCarSeatStateMachine.m in Sources */,
 				B1D12616226EF55E008F7EE7 /* NSDate+HooDatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1525,7 +2045,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2A55P52D2;
+				DEVELOPMENT_TEAM = 93NPCXJNR2;
 				INFOPLIST_FILE = ZZKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

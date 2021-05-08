@@ -24,8 +24,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.titles = @[@"视频截取",@"视频合成",@"美颜拍视频"];
-    self.controllers = @[@"ZZVideoCutViewController",@"AVVideoCompositionController",@"GPUImageTakeVideoViewController"];
+    self.titles = @[@"音频相关",@"视频录制",@"视频截取",@"视频合成",@"美颜拍视频"];
+    self.controllers = @[@"ZZAudioViewController",@"ZZVideoCaptureSessionController",@"ZZVideoCutViewController",@"AVVideoCompositionController",@"GPUImageTakeVideoViewController"];
     [self.view addSubview:self.tableView];
 }
 

@@ -22,7 +22,9 @@
 @implementation ZZCameraHandler
 
 - (void)dealloc {
-    [self removeObserver:self forKeyPath:@"torchMode"];
+    [self stopRunning];
+    // Terminating app due to uncaught exception 'NSRangeException', reason: 'Cannot remove an observer <ZZCameraHandler 0x282c87280> for the key path "torchMode" from <ZZCameraHandler 0x282c87280> because it is not registered as an observer.'
+//    [self removeObserver:self forKeyPath:@"torchMode"];
 }
 
 - (void)startRunning {

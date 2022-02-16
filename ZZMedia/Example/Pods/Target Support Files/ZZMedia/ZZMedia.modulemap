@@ -1,0 +1,6 @@
+framework module ZZMedia {
+  umbrella header "ZZMedia-umbrella.h"
+
+  export *
+  module * { export * }
+}
